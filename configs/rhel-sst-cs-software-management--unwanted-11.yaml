@@ -1,0 +1,34 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted Packages - rhel-sst-cs-software-management
+  description: Packages that the Software Management subsystem does not want to distribute in RHEL 11
+  maintainer: rhel-sst-cs-software-management
+  unwanted_packages:
+    # drop drpm support from RHEL 9
+    - drpm
+    # drop drpm support from RHEL 9
+    - drpm-devel
+    # don't ship static libs
+    - lua-static
+    # don't ship static libs
+    - popt-static
+    # SysV init related, no longer needed because we have systemd
+    - rpm-plugin-prioreset
+  unwanted_source_packages:
+    # drop DNF4 from RHEL 11, use dnf5 instead
+    - dnf
+    # drop DNF4 from RHEL 11, use dnf5 instead
+    - dnf-plugins-core
+    # drop DNF4 from RHEL 11
+    - libcomps
+    # drop DNF4 from RHEL 11, use dnf5 instead
+    - libdnf
+    # drop modularity from RHEL 11
+    - libmodulemd
+    # drop microdnf from RHEL 11, use dnf5 instead
+    - microdnf
+    # drop modularity from RHEL 11
+    - modulemd-tools
+  labels:
+    - eln

@@ -16,5 +16,4 @@ data:
     # SysV init related, no longer needed because we have systemd
     - rpm-plugin-prioreset
   labels:
-    - eln
     - c10s
