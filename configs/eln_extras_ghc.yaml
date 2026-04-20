@@ -23,5 +23,11 @@ data:
     - ormolu
     - shake
     - stack
+    # build dependencies
+    - ghc-cabal-install-devel
+    - ghc-cpphs-devel
+    - ghc-hasktags-devel
+    - ghc-hlint-devel
+    - ghc-stack-devel
   labels:
     - eln-extras

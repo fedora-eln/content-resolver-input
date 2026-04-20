@@ -21,6 +21,14 @@ data:
     - patat
     - tart
     # build dependencies
+    - ghc-Agda-devel
+    - ghc-ShellCheck-devel
+    - ghc-darcs-devel
+    - ghc-dhall-devel
+    - ghc-dhall-json-devel
+    - ghc-idris-devel
+    - ghc-patat-devel
+    - ghc-tart-devel
     - ghc-pandoc-devel
     - ghc-pandoc-server-devel
   labels:
