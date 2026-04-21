@@ -20,7 +20,6 @@ data:
     - drgn
     - duo_unix
     - duo_unix-selinux
-    - ebranch
     - et
     - fd-find
     - fping
@@ -50,7 +49,6 @@ data:
     - pam_krb5
     - parallel
     - pngquant
-    - poi-tracker
     - pv
     - python3-pystemd
     - python3-testslide
@@ -63,6 +61,7 @@ data:
     - rpminspect-data-centos
     - rpminspect-data-fedora
     - rpmrebuild
+    - sandogasa
     - screen
     - sdparm
     - stress
