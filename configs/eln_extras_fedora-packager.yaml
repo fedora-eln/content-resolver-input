@@ -20,5 +20,8 @@ data:
     - rpmbuild-order
     - rpmdevtools
     - rpmdistro-repoquery
+    # build dependencies
+    - ghc-pkgtreediff-devel
+    - ghc-rpmbuild-order-devel
   labels:
     - eln-extras
