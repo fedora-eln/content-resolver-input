@@ -9,5 +9,4 @@ data:
     - nodejs-devel
     - nodejs-npm
   labels:
-    - eln
     - c10s
