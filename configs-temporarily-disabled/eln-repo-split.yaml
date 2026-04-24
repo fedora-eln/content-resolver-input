@@ -59,8 +59,8 @@ data:
     - strace
     - sudo
     # asamalik: adding ELN packages
-    - fedora-release-eln
-    - fedora-repos-eln
+    - fedora-eln-release
+    - fedora-eln-repos
 
 
   appstream:

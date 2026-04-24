@@ -43,8 +43,8 @@ data:
   #
   # (mandatory field)
   packages:
-  - fedora-repos-eln
-  - fedora-release-eln
+  - fedora-eln-repos
+  - fedora-eln-release
 
   # Labels connect things together.
   # Workloads get installed in environments with the same label.
