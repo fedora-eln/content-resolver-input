@@ -81,6 +81,7 @@ data:
     - glibc-langpack-hif
     - glibc-langpack-hne
     - glibc-langpack-hr
+    - glibc-langpack-hrx
     - glibc-langpack-hsb
     - glibc-langpack-ht
     - glibc-langpack-hu
