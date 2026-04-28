@@ -1,0 +1,14 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted DNF4 packages
+  description: DNF4 packages unwanted in RHEL 11
+  maintainer: rhel-sst-cs-software-management
+  unwanted_source_packages:
+    - dnf
+    - dnf-plugins-core
+    - libcomps
+    - libdnf
+    - libmodulemd
+  labels:
+    - eln
