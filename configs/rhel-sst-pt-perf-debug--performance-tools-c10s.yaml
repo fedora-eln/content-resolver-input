@@ -10,6 +10,7 @@ data:
     - elfutils-debuginfod
     - elfutils-debuginfod-client
     - elfutils-debuginfod-client-devel
+    - elfutils-default-yama-scope
     - elfutils-devel
     - elfutils-libelf
     - elfutils-libelf-devel
@@ -30,9 +31,8 @@ data:
     - systemtap-server
     - valgrind
     - valgrind-devel
-    - yama-ptrace-enable
   labels:
-    - eln
+    - c10s
   # dyninst and papi aren't supported on s390x
   arch_packages:
     aarch64:
