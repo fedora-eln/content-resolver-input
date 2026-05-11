@@ -6,9 +6,15 @@ data:
   maintainer: epel-packagers-sig
   packages:
     - cups-pdf
+    - fapolicy-analyzer
+    - fastfetch
+    - fdupes
+    - fish
     - GraphicsMagick
+    - imhex
     - impressive
     - inotify-tools
     - netcat
+    - scdoc
   labels:
     - eln-extras
