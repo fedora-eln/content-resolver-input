@@ -11,11 +11,15 @@ data:
     - fdupes
     - fish
     - GraphicsMagick
-    - imhex
     - impressive
     - inotify-tools
     - netcat
     - scdoc
     - vdirsyncer
+  arch_packages:
+    aarch64:
+      - imhex
+    x86_64:
+      - imhex
   labels:
     - eln-extras
