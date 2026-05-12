@@ -16,5 +16,6 @@ data:
     - inotify-tools
     - netcat
     - scdoc
+    - vdirsyncer
   labels:
     - eln-extras
