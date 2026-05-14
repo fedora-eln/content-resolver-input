@@ -6,7 +6,7 @@ data:
     Unwanted packages related to network configuration and troubleshooting.
 
   maintainer: rhel-sst-networking-core
-  unwanted_packages:
+  unwanted_source_packages:
     - dropwatch
     - netcat
     - plotnetcfg

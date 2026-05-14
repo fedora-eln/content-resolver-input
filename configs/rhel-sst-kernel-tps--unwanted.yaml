@@ -4,9 +4,8 @@ data:
   name: Unwanted Packages - rhel-sst-kernel-tps
   description: Packages not shipping in RHEL 9
   maintainer: rhel-sst-kernel-tps
-  unwanted_packages:
+  unwanted_source_packages:
     - rtl-sdr
-    - rtl-sdr-devel
   labels:
     - eln
     - c10s
