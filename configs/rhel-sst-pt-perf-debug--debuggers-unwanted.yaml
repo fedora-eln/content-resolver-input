@@ -4,7 +4,7 @@ data:
   name: Unwanted Debuggers packages
   description: Unwanted Debuggers packages
   maintainer: rhel-sst-pt-perf-debug
-  unwanted_packages:
+  unwanted_source_packages:
     - babeltrace
   labels:
     - eln

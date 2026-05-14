@@ -10,19 +10,18 @@ data:
   # in multiple crypto packages already and we do not want to add
   # more).
   # More info in the original PR 15
-  unwanted_packages:
+  unwanted_source_packages:
     - libretls
     - libsodium
     - libssh2
     - libtomcrypt
-    - python2-pycryptodomex
-    - python3-ecdsa
-    - python3-pycryptodomex
-    - python3-pyOpenSSL
-    - python3-crypto
-    - python2-crypto
+    - pyOpenSSL
+    - python-crypto
+    - python-ecdsa
+    - python-pycryptodomex
     # OpenSSL 3 deprecated engines, use the openssl pkcs11 provider instead
     - openssl-pkcs11
+  unwanted_packages:
     # Deprecated OpenSSL components
     - openssl-devel-engine
   labels:
