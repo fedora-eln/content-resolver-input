@@ -6,7 +6,6 @@ data:
   maintainer: rhel-java
   labels:
     - eln
-    - c10s
   unwanted_source_packages:
     # RHEL should only get explicitly versioned JDKs (e.g. java-17-openjdk), not the rolling java-latest-openjdk
     - java-latest-openjdk
@@ -19,6 +18,7 @@ data:
     - java-1.8.0-openjdk
     - java-11-openjdk
     - java-17-openjdk
+    - java-21-openjdk
     # RHEL has its own portable/single build setup which uses a branch (openjdk-portable-rhel-8) rather than a separate package
     - java-1.8.0-openjdk-portable
     - java-11-openjdk-portable
