@@ -24,12 +24,6 @@ data:
   arch_packages:
     aarch64:
       - clevis-pin-tpm2
-      - fdo-client
-      - fdo-init
-      - fdo-manufacturing-server
-      - fdo-owner-cli
-      - fdo-owner-onboarding-server
-      - fdo-rendezvous-server
       - go-fdo-client
       - go-fdo-server
       - go-fdo-server-manufacturer
@@ -39,12 +33,6 @@ data:
       - greenboot-default-health-checks
     x86_64:
       - clevis-pin-tpm2
-      - fdo-client
-      - fdo-init
-      - fdo-manufacturing-server
-      - fdo-owner-cli
-      - fdo-owner-onboarding-server
-      - fdo-rendezvous-server
       - go-fdo-client
       - go-fdo-server
       - go-fdo-server-manufacturer
