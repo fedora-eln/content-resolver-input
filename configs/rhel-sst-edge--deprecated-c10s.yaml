@@ -1,0 +1,23 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Edge Deprecated
+  description: Deprecated fdo-rs (FIDO Device Onboard, Rust implementation) packages. Replaced by go-fdo. To be removed in RHEL 11.
+  maintainer: rhel-sst-edge
+  arch_packages:
+    aarch64:
+      - fdo-client
+      - fdo-init
+      - fdo-manufacturing-server
+      - fdo-owner-cli
+      - fdo-owner-onboarding-server
+      - fdo-rendezvous-server
+    x86_64:
+      - fdo-client
+      - fdo-init
+      - fdo-manufacturing-server
+      - fdo-owner-cli
+      - fdo-owner-onboarding-server
+      - fdo-rendezvous-server
+  labels:
+    - c10s
