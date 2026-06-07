@@ -9,6 +9,7 @@ data:
     # older Python versions
     - python3.12
     - python3.13
+    - python3.14
     # setuptools no longer needs this to build wheels
     # https://github.com/fedora-eln/eln/issues/284
     - python-wheel
