@@ -6,6 +6,7 @@ data:
   maintainer: rhel-sst-csi-client-tools
   packages:
     - python3-subscription-manager-rhsm
+    - rhc
     - subscription-manager
     - subscription-manager-cockpit
     - subscription-manager-plugin-ostree
@@ -27,14 +28,6 @@ data:
             - python3-requests
             - systemd
             - tar
-    - srpm_name: rhc
-      rpms:
-        - rpm_name: rhc
-          description: rhc
-          dependencies:
-            - policycoreutils-python-utils
-            - yggdrasil
-            - yggdrasil-worker-package-manager
     - srpm_name: rhc-worker-playbook
       rpms:
         - rpm_name: rhc-worker-playbook
