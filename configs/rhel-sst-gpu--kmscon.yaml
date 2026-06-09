@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Kmscon
+  description: Userspace terminal emulator based on Linux kernel mode setting
+  maintainer: rhel-sst-gpu
+  packages:
+    - kmscon
+  labels:
+    - eln
