@@ -5,7 +5,6 @@ data:
   description: composer-cli command line utility to control osbuild-composer
   maintainer: rhel-sst-image-builder
   labels:
-    - eln
     - c10s
   packages:
     - weldr-client
