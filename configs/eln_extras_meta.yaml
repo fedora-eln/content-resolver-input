@@ -51,7 +51,7 @@ data:
     - pngquant
     - pv
     - python3-pystemd
-    - python3-testslide
+#    - python3-testslide
     - python3-zstd
     - qrencode-devel
     - ragel
