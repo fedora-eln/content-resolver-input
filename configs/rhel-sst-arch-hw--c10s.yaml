@@ -24,7 +24,6 @@ data:
     - alsa-utils
     - speexdsp
     - hwloc
-    - libzpc-tools
     - pigz
     - s390utils
     - s390utils-se-data
@@ -49,7 +48,8 @@ data:
       - libzfcphbaapi
       - libzfcphbaapi-devel
       - libzfcphbaapi-docs
-      - libzpc-provider
+      - libzpc
+      - libzpc-devel
       - openssl-ibmca
       - qclib
       - qclib-devel
@@ -75,4 +75,4 @@ data:
       - pcm
       - tboot
   labels:
-    - eln
+    - c10s
