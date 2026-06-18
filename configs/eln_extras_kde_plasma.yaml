@@ -75,6 +75,7 @@ data:
     - plasma-systemmonitor
     - plasma-systemsettings
     - plasma-thunderbolt
+    - plasma-union
     - plasma-vault
     - plasma-wayland-protocols
     - plasma-welcome
