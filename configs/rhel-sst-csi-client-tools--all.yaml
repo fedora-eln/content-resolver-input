@@ -13,7 +13,6 @@ data:
     - subscription-manager-rhsm-certificates
     - virt-who
     - yggdrasil
-    - yggdrasil-worker-package-manager
   package_placeholders:
     - srpm_name: insights-client
       rpms:
