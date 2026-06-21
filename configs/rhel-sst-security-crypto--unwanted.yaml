@@ -15,6 +15,7 @@ data:
     - libsodium
     - libssh2
     - libtomcrypt
+    - openssl3
     - pyOpenSSL
     - python-crypto
     - python-ecdsa
