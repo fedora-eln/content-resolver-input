@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: IP routing
+  description: IP and IP routing related software
+  maintainer: rhel-net-perf
+  packages:
+    - frr
+    - ipcalc
+  labels:
+    - c10s
