@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Goose
+  description: Extensible AI agent client
+  maintainer: rhel-sst-lightspeed
+  packages:
+    - goose
+  labels:
+    - eln-extras
