@@ -1,0 +1,82 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Core Services Network and Performance Services - Blocked packages
+  description: Core Services Network and Performance Services - Packages which should not be in ELN
+  maintainer: rhel-net-perf
+  unwanted_packages:
+    # bind
+    - bind-export-libs
+    - bind-sdb
+    - bind-sdb-chroot
+    # frr
+    - frr-contrib
+    - frr-devel
+    # gsm
+    - gsm-tools
+    # ghostscript
+    - ghostscript-x11
+    # gutenprint
+    - gutenprint-extras
+    - gutenprint-plugin
+    - gutenprint-libs-ui
+    # hplip
+    - hplip-gui
+    # memcached
+    - memcached-devel
+    # ncurses
+    - ncurses-compat-libs
+    - ncurses-static
+    # ppp
+    - network-scripts-ppp
+    # pptp
+    - pptp-setup
+    # python-pyudev
+    - python3-pyudev-qt5
+    # slang
+    - slang-slsh
+    # speex
+    - speex-tools
+    # subversion
+    - subversion-kde
+    # system-config-printer
+    - system-config-printer
+    - system-config-printer-applet
+    # tuned
+    - tuned-profiles-compat
+    - tuned-profiles-nfv-host-bin
+    - tuned-utils-systemtap
+    # urw-base35-fonts
+    - urw-base35-fonts-legacy
+  unwanted_source_packages:
+    - a2ps
+    - authd
+    - compat-guile18
+    - dnssec-trigger
+    - espeak
+    - exim
+    - GeoIP
+    - geoipupdate
+    - libidn
+    - libmemcached-awesome
+    - libotr
+    - libwvstreams
+    - mailman
+    - mod_security
+    - mod_security_crs
+    - ntp
+    - pakchois
+    - perl-PerlIO-gzip
+    - php-pecl-xdebug
+    - quagga
+    - rsh
+    - sane-frontends
+    - sendmail
+    - spamassassin
+    - tcl8
+    - timedatex
+    - tk8
+    - xsane
+  labels:
+    - eln
+    - c10s

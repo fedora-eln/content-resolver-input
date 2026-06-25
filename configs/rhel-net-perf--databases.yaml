@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Databases
+  description: Data storage software
+  maintainer: rhel-net-perf
+  packages:
+    - memcached
+    - memcached-selinux
+    - rrdtool
+    - tinycdb
+  labels:
+    - eln
+    - c10s

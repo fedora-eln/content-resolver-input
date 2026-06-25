@@ -1,0 +1,21 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: PostgreSQL client and server
+  description: Client tools and a server daemon for PostgreSQL
+  maintainer: rhel-databases
+  packages:
+    - postgresql
+    - postgresql-contrib
+    - postgresql-plperl
+    - postgresql-plpython3
+    #- postgresql-pltcl
+    - postgresql-server
+    - postgresql-server-devel
+    - postgresql-static
+    - postgresql-test
+    - postgresql-upgrade
+    - postgresql-upgrade-devel
+  labels:
+    - eln
+    - c10s
