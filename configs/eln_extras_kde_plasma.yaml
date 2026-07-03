@@ -17,7 +17,6 @@ data:
     - kdeplasma-addons
     - kde-settings-plasma
     - kdesu
-    - kgamma
     - kglobalacceld
     - kinfocenter
     - kmenuedit
