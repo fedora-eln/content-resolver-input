@@ -8,6 +8,7 @@ data:
   maintainer: rhel-sst-security-crypto
   packages:
     - openssl
+    - fips-provider-next
   package_placeholders:
     - srpm_name: openssl-fips-provider
       rpms:
@@ -18,11 +19,6 @@ data:
           description: FIPS module for OpenSSL
           dependencies:
             - coreutils
-    - srpm_name: fips-provider-next
-      rpms:
-        - rpm_name: fips-provider-next
-          description: Next FIPS module, before it is validated
-          dependencies: []
   labels:
     - eln
     - c10s
