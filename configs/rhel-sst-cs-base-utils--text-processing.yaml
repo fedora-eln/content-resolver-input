@@ -26,7 +26,6 @@ data:
     - texlive-anyfontsize
     - texlive-anysize
     - texlive-appendix
-    - texlive-arphic
     - texlive-atbegshi
     - texlive-attachfile
     - texlive-attachfile2
@@ -43,7 +42,6 @@ data:
     - texlive-beton
     - texlive-bibtex
     - texlive-bibtopic
-    - texlive-bidi
     - texlive-bigfoot
     - texlive-bigintcalc
     - texlive-bitset
@@ -67,7 +65,6 @@ data:
     - texlive-cm-super
     - texlive-cmap
     - texlive-cmextra
-    - texlive-cns
     - texlive-collectbox
     - texlive-collection-basic
     - texlive-collection-fontsrecommended
@@ -137,7 +134,6 @@ data:
     - texlive-fp
     - texlive-fpl
     - texlive-framed
-    - texlive-garuda-c90
     - texlive-geometry
     - texlive-gettitlestring
     - texlive-glyphlist
@@ -244,7 +240,6 @@ data:
     - texlive-needspace
     - texlive-newfloat
     - texlive-newunicodechar
-    - texlive-norasi-c90
     - texlive-notoccite
     - texlive-ntgclass
     - texlive-oberdiek
@@ -259,7 +254,6 @@ data:
     - texlive-pdfcolmk
     - texlive-pdfescape
     - texlive-pdflscape
-    - texlive-pdfmanagement-testphase
     - texlive-pdfpages
     - texlive-pdftex
     - texlive-pdftexcmds
@@ -372,7 +366,6 @@ data:
     - texlive-xecolor
     - texlive-xecyr
     - texlive-xeindex
-    - texlive-xepersian
     - texlive-xesearch
     - texlive-xetex
     - texlive-xetex-itrans
