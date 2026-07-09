@@ -6,7 +6,7 @@ data:
   maintainer: eln-sig
   packages:
     # ftp-server
-    # https://github.com/minimization/content-resolver-input/pull/1455
+    # https://github.com/fedora-eln/content-resolver-input/pull/1455
     - ftp
     - lftp
     - lftp-scripts
@@ -15,7 +15,7 @@ data:
     # https://github.com/fedora-eln/eln/issues/331
     - fontforge
     # RHEL 10 switched back to wget1
-    # https://github.com/minimization/content-resolver-input/pull/1219
+    # https://github.com/fedora-eln/content-resolver-input/pull/1219
     - wget2
     - wget2-wget
   labels:
