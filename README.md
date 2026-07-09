@@ -2,7 +2,7 @@
 
 This repository contains all the configuration for [Content Resolver](https://tiny.distro.builders).
 
-See [config specs](https://github.com/minimization/content-resolver/tree/master/config_specs) for reference. 
+See [config specs](https://github.com/fedora-eln/content-resolver/tree/master/config_specs) for reference.
 
 ## Locating the right file
 
