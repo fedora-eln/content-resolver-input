@@ -4,21 +4,12 @@ data:
   name: Cloud Experience Integrations for RHEL
   description: Software that makes RHEL more integrated with various clouds
   maintainer: rhel-sst-cloudexperience
-  packages:
-    - python3-prompt-toolkit
-    - python3-ruamel-yaml
-    - python3-ruamel-yaml-clib
-    - python3-websockets
+  packages: []
   arch_packages:
     aarch64:
       - awscli2
-      - python3-awscrt
-    ppc64le:
-      - awscli2
-      - python3-awscrt
     x86_64:
       - awscli2
-      - python3-awscrt
   package_placeholders:
     - srpm_name: opentelemetry-collector
       rpms:
