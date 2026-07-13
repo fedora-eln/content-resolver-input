@@ -3,7 +3,7 @@ version: 1
 data:
   name: KDE Plasma Desktop
   description: KDE Plasma Desktop ELN Extras packages
-  maintainer: tdawson
+  maintainer: kde-sig
   packages:
     - aurorae
     - breeze-cursor-theme

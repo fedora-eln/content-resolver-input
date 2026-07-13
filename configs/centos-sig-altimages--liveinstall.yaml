@@ -3,7 +3,7 @@ version: 1
 data:
   name: liveinstall packages
   description: LiveInstall packages not in RHEL
-  maintainer: tdawson
+  maintainer: sig-altimages
   packages: []
   arch_packages:
     aarch64:

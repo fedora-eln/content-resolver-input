@@ -3,7 +3,7 @@ version: 1
 data:
   name: KDE Miscellaneous
   description: KDE Miscellaneous ELN Extras packages
-  maintainer: tdawson
+  maintainer: kde-sig
   packages:
     - atlantik
     - gcompris-qt

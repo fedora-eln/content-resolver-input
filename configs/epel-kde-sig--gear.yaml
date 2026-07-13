@@ -3,7 +3,7 @@ version: 1
 data:
   name: KDE Gear
   description: KDE Gear ELN Extras packages
-  maintainer: tdawson
+  maintainer: kde-sig
   packages:
     - accessibility-inspector
     - alligator

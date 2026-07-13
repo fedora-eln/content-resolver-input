@@ -3,7 +3,7 @@ version: 1
 data:
   name: ELN Extras Python
   description: Python packages, crucial for EPEL packaging
-  maintainer: churchyard
+  maintainer: python-packagers-sig
   packages:
     - python3-hatch-vcs
     - python3-poetry-core

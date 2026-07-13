@@ -3,7 +3,7 @@ version: 1
 data:
   name: VLC
   description: VLC media player
-  maintainer: yselkowitz
+  maintainer: multimedia-sig
   packages:
     - vlc
     - vlc-cli

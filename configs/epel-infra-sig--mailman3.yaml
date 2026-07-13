@@ -3,7 +3,7 @@ version: 1
 data:
   name: Mailman 3 eln-extra packages
   description: Mailman 3 ELN Extras packages
-  maintainer: ngompa
+  maintainer: infra-sig
   packages:
     - mailman3
     - python3-mailman-hyperkitty

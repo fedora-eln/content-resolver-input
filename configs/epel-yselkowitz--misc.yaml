@@ -2,7 +2,7 @@ document: feedback-pipeline-workload
 version: 1
 data:
   name: yselkowitz packages
-  description: Yaakov Selkowitzs ELN Extras packages
+  description: yselkowitz ELN Extras packages
   maintainer: yselkowitz
   packages:
     - cargo-vendor-filterer

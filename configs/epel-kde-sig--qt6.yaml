@@ -3,7 +3,7 @@ version: 1
 data:
   name: qt6 eln-extra packages
   description: QT6 ELN Extras packages
-  maintainer: tdawson
+  maintainer: kde-sig
   packages:
     - python3-pyqt6-charts
     - python3-pyside6
