@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: OBS Studio
+  description: Multimedia SIG ELN Extras packages
+  maintainer: multimedia-sig
+  packages:
+    - obs-studio
+    - obs-studio-devel
+  labels:
+    - eln-extras

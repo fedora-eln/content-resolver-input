@@ -3,7 +3,7 @@ version: 1
 data:
   name: KDE Frameworks
   description: KDE Frameworks ELN Extras packages
-  maintainer: tdawson
+  maintainer: kde-sig
   packages:
     - breeze-icon-theme
     - breeze-icon-theme-rcc
