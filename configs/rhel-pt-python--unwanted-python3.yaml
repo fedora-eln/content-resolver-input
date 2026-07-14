@@ -1,0 +1,107 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted Python 3 packages
+  description: Packages we do not want to ship for Python 3
+  maintainer: rhel-pt-python
+  unwanted_source_packages:
+    # The "other" Python versions might accidentally be pulled in by not yet rebuilt packages
+    # They are also Recommended by tox and hence pulled in as weak dependencies
+    - python3.5
+    - python3.6
+    - python3.7
+    - python3.8
+    - python3.9
+    - python3.10
+    - python3.11
+    - pypy
+    - pypy2.7
+    - pypy3.10
+    - pypy3.11
+    - pypy3.12
+    # Python Maint prefers the standard library venv module
+    - python-virtualenv
+    # tox depends on virtualenv, and generally isn't something we want to support in RHEL
+    - python-tox
+    # deprecated() Python packages:
+    - python-nose
+    - python-pytest4
+    - python-pytoml
+    - python-zombie-imp
+    - python-cython0.29
+    # the Jupyter Notebook stack we maintain in Fedora, but not in RHEL
+    - python-ipykernel
+    - python-ipyparallel
+    - ipython
+    - python-ipywidgets
+    - python-jedi
+    - python-jupyter-client
+    - python-jupyter-core
+    - python-jupyter-server
+    - python-matplotlib
+    - python-nb2plots
+    - python-nbclassic
+    - python-nbclient
+    - python-nbconvert
+    - python-nbsphinx
+    - python-notebook
+    - python-numpydoc
+    - python-pandas
+    - python-pytest-jupyter
+    - sympy
+    # Many packages measure coverage in %check, we should not need to do that in RHEL (or even in Fedora)
+    - python-coverage
+    - python-pytest-cov
+    - python-codecov
+    # Many packages lint code in %check, we should not need to do that in RHEL (or even in Fedora)
+    - python-black
+    - python-pycodestyle
+    - pylint
+    - pyflakes
+    - python-flake8
+    - python-isort
+    # funcsigs is a backport from the Python standard library inspect module, use that one instead
+    - python-funcsigs
+    # hypothesis is a testing package with a fairly rapid release schedule,
+    # so it's not something we'd want to pin and support for an extended time
+    - python-hypothesis
+    # breezy is only an optional test dependency of pip, with large dep tree
+    - breezy
+    # pillow is riddled with CVEs all the time, not something we want to fix
+    - python-pillow
+    # a test only depndencies, can be replaced by stdlib's unittest.mock if needed
+    # not "enterprise" material
+    - python-pretend
+    - python-sure
+    - python-freezegun
+    - python-trustme
+    # The Python standard library already has html.parser;
+    # another HTML parsing library is redundant
+    - python-html5lib
+    # Web servers usually used for %check only, have a huge dep chain
+    - python-twisted
+    # We only support two basic Sphinx themes in RHEL (alabaster and RTD)
+    - python-Pallets-Sphinx-Themes
+    - python-sphinx-theme-py3doc-enhanced
+    - python-pydata-sphinx-theme
+    # Packages should only use python3-{flit,poetry}-core for build backends
+    - python-flit
+    - poetry
+    # zoneinfo is in the Python standard library (PEP 615), use that one instead
+    - pytz
+    # python3-chardet was pulled into RHEL 9 as a dependency of python3-requests,
+    # but they switched to python3-charset-normalizer instead,
+    # no need to maintain 2 packages with the same purpose
+    - python-chardet
+    # tomllib is in the Python standard library (PEP 680), use that one instead
+    - python-toml
+    - python-tomli
+    # python3-py is in maintenance mode upstream, pretty much dead
+    # it used to be in RHEL as a dependency of pytest which bundled the necessary parts
+    - python-py
+    # lxml-html-clean is the CVE-magnet part of lxml we split upstream to get rid of it
+    # nothing in ELN really ever used it, but let's not risk it
+    - python-lxml-html-clean
+  labels:
+    - eln
+    - c10s

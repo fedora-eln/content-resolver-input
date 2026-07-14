@@ -1,0 +1,29 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: OpenJDK Unwanted Packages
+  description: Packages that OpenJDK maintainers do not wish to maintain in RHEL
+  maintainer: rhel-java
+  labels:
+    - eln
+  unwanted_source_packages:
+    # RHEL should only get explicitly versioned JDKs (e.g. java-17-openjdk), not the rolling java-latest-openjdk
+    - java-latest-openjdk
+    - java-latest-openjdk-portable
+    # Oracle dropped deployment tool support with JDK 10 (March 2018), we shouldn't support it for the RHEL 9 lifecycle
+    - icedtea-web
+    # Our position changed on Rhino. We only intend to support a JavaScript engine if there is customer demand.
+    - rhino
+    # Older JDKs are due to reach end of life in the next few years
+    - java-1.8.0-openjdk
+    - java-11-openjdk
+    - java-17-openjdk
+    - java-21-openjdk
+    # RHEL has its own portable/single build setup which uses a branch (openjdk-portable-rhel-8) rather than a separate package
+    - java-1.8.0-openjdk-portable
+    - java-11-openjdk-portable
+    - java-17-openjdk-portable
+    - java-21-openjdk-portable
+    - java-25-openjdk-portable
+    # Parallel installations of the same JDK are no longer supported in RHEL 10 and so no dependency on copy-jdk-configs
+    - copy-jdk-configs

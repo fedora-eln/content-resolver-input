@@ -10,15 +10,13 @@ data:
     - gdb-gdbserver
     - gdb-headless
     - gdb-minimal
-    - libbabeltrace
-    - libbabeltrace-devel
+    - libbabeltrace2
+    - libbabeltrace2-devel
     - source-highlight
     # See libipt below
   labels:
     - eln
-    - c10s
   # libipt is Intel only
   arch_packages:
     x86_64:
       - libipt
-      - libipt-devel

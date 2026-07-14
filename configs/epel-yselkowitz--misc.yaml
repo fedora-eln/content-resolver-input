@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: yselkowitz packages
+  description: yselkowitz ELN Extras packages
+  maintainer: yselkowitz
+  packages:
+    - cargo-vendor-filterer
+    - flatseal
+    - latex2rtf
+    - qmplay2
+    - robodoc
+    - whatip
+    - ttfautohint
+  labels:
+    - eln-extras

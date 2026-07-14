@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: liveinstall packages
+  description: LiveInstall packages not in RHEL
+  maintainer: sig-altimages
+  packages: []
+  arch_packages:
+    aarch64:
+      - anaconda-live
+      - livesys-scripts
+      - slitherer
+    x86_64:
+      - anaconda-live
+      - livesys-scripts
+      - slitherer
+  labels:
+    - eln-extras

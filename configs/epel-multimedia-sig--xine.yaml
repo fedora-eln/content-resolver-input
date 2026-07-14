@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Xine
+  description: Multimedia SIG ELN Extras packages
+  maintainer: multimedia-sig
+  packages:
+    - xine-lib-devel
+    - xine-ui
+    - xine-ui-aaxine
+    - xine-ui-skins
+  labels:
+    - eln-extras

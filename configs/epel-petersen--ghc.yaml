@@ -1,0 +1,33 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GHC
+  description: GNU Haskell Compiler
+  maintainer: petersen
+  packages:
+    - ghc
+    - ghc-rpm-macros-extra
+    - ghc-rpm-macros-quick
+    - ghc-srpm-macros
+    # development tools
+    - alex
+    - c2hs
+    - cabal-install
+    - cabal-rpm
+    - cpphs
+    - happy
+    - hasktags
+    - hlint
+    - hscolour
+    - hwk
+    - ormolu
+    - shake
+    - stack
+    # build dependencies
+    - ghc-cabal-install-devel
+    - ghc-cpphs-devel
+    - ghc-hasktags-devel
+    - ghc-hlint-devel
+    - ghc-stack-devel
+  labels:
+    - eln-extras

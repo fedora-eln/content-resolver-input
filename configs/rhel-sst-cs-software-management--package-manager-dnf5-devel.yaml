@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Package Manager - development packages
+  description: Supported development packages
+  maintainer: rhel-sst-cs-software-management
+  packages:
+    - dnf5-devel
+    - libdnf5-devel
+    - libdnf5-cli-devel
+    - popt-devel
+    - python3-rpm
+    - rpm-devel
+  labels:
+    - eln

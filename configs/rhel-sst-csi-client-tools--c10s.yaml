@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: CSI Client Tools deprecated
+  description: Red Hat tools for Content, Subscriptions and Insights.
+  maintainer: rhel-sst-csi-client-tools
+  packages:
+    - yggdrasil-worker-package-manager
+  labels:
+    - c10s

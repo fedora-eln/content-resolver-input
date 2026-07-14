@@ -47,14 +47,14 @@ data:
         baseurl: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/NFV/$basearch/os/
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
-        limit_arches: ["x86_64"]
+        limit_arches: ["aarch64", "x86_64"]
         priority: 2
       RT:
         baseurl: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/RT/$basearch/os/
         priority: 2
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
-        limit_arches: ["x86_64"]
+        limit_arches: ["aarch64", "x86_64"]
       SAP:
         baseurl: https://kojipkgs.fedoraproject.org/compose/eln/latest-Fedora-eln/compose/SAP/$basearch/os/
         koji_api_url: https://koji.fedoraproject.org/kojihub
@@ -72,15 +72,25 @@ data:
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
         exclude: &eln_build_excludes
+        # prefer environment-modules
+        - Lmod
+        # prefer lynx for text-www-browser
+        #- elinks
+        - w3m
         # prefer bind
         - bind9-next*
-        # prefer postfix and sendmail
+        # RHEL packages are named ipa*
+        - freeipa*
+        # prefer postfix for MT/smtpd/smtpdaemon
         - esmtp
         - esmtp-local-delivery
         - exim
         - opensmtpd
-        # RHEL packages are named ipa*
-        - freeipa*
+        - sendmail
+        # prefer libisoburn/xorriso for mkisofs
+        - cdrkit
+        # prefer grubby
+        - sdubby
         # openjdk-portable packages are built against the oldest supported
         # RHEL version, will not be imported into next RHEL version
         - java-*-openjdk-portable*
@@ -92,11 +102,21 @@ data:
         - fop
         - ImageMagick
         # pulls in GHC stack
-        - pandoc
+        - pandoc-cli
         # unwanted ocaml deps
         - ocaml-ounit*
+        # unwanted perl deps
+        - perl-Any-Moose
+        - perl-DateTime*
+        - perl-Moose
+        - perl-Mouse
+        - perl-Net-DNS
+        - perl-Perl-Critic
+        - perl-Test-Perl-Critic
         # unwanted python deps
+        - black
         - python3-anyio
+        - python3-cattrs
         - python3-coverage
         - python3-docs
         - python3-etcd
@@ -107,33 +127,37 @@ data:
         - python3-hypothesis
         - python3-iso8601
         - python3-ipython
+        - python3-jaraco-packaging
+        - python3-jaraco-test
         - python3-myst-parser
         - python3-pillow
         - python3-pretend
         - python3-pyOpenSSL
         - python3-pysocks
+        - python3-pytest-asyncio
         - python3-pytest-benchmark
         - python3-pytest-cov
         - python3-pytest-flakes
+        - python3-pytest-freezer
         - python3-pytest-mock
         - python3-pytest-randomly
+        - python3-pytest-subprocess
         - python3-pytest-timeout
+        - python3-pytest-trio
         - python3-pytest-xdist
         - python3-pywbem
         - python3-quart
         - python3-quart-trio
         - python3-recommonmark
-        - python3-scikit-build-core
         - python3-subunit
         - python3-tomlkit
         - python3-tox-current-env
         - python3-trio
         - python3-trustme
         - python3-twisted
+        - python3-virtualenv
         - python3-werkzeug
         - tox
-        # prefer grubby
-        - sdubby
         # ffmpeg is unwanted
         - ffmpeg-free-devel
         - libav*-free*
@@ -141,7 +165,11 @@ data:
         - libswresample-free*
         - libswscale-free*
         # only qt6 in ELN
+        - kf5-*
         - qt5-*
+        # KDE is unwanted
+        - extra-cmake-modules
+        - kf6-*
         # qtwebengine is unwanted
         - qt6-qtpdf
         - qt6-qtpdf-devel
@@ -164,11 +192,25 @@ data:
         - jackson-*
         - jboss-jaxrs-2.0-api
         - jboss-logging*
-        - pki-resteasy-*
+        - pki-resteasy*
         # unwanted weak dependency of ibus-table, ibus-typing-booster
         - python3-simpleaudio
         # unwanted (and rarely used) build dep, pulls in hundreds of Perl deps
         - licensecheck
+        # golang module packages are obsolete and unwanted
+        - golang-*-devel
+        - compat-golang-*-devel
+        # needs further pruning before inclusion in RHEL
+        - go-vendor-tools*
+        # built with bundled dependencies in RHEL, maintained in ELN branch
+        - fence-*
+        - pcs
+        - pcs-snmp
+        # Fedora-only BuildRequires of mesa
+        - DirectX-Headers*
+        - flatbuffers-*
+        - mingw*-python3*
+        - xtensor-*
         priority: 4
       Rawhide:
         baseurl: https://kojipkgs.fedoraproject.org/compose/rawhide/latest-Fedora-Rawhide/compose/Everything/$basearch/os/

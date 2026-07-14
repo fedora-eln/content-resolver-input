@@ -5,15 +5,14 @@ data:
   description: Red Hat tools for Content, Subscriptions and Insights.
   maintainer: rhel-sst-csi-client-tools
   packages:
-    - libdnf-plugin-subscription-manager
     - python3-subscription-manager-rhsm
+    - rhc
     - subscription-manager
     - subscription-manager-cockpit
     - subscription-manager-plugin-ostree
     - subscription-manager-rhsm-certificates
     - virt-who
     - yggdrasil
-    - yggdrasil-worker-package-manager
   package_placeholders:
     - srpm_name: insights-client
       rpms:
@@ -26,18 +25,8 @@ data:
             - policycoreutils-python-utils
             - python3-pyyaml
             - python3-requests
-            - python3-setuptools
-            - python3-six
             - systemd
             - tar
-    - srpm_name: rhc
-      rpms:
-        - rpm_name: rhc
-          description: rhc
-          dependencies:
-            - policycoreutils-python-utils
-            - yggdrasil
-            - yggdrasil-worker-package-manager
     - srpm_name: rhc-worker-playbook
       rpms:
         - rpm_name: rhc-worker-playbook
@@ -46,6 +35,12 @@ data:
             - ansible-core
             - python3-pyyaml
             - python3-requests
+    - srpm_name: rhc-playbook-verifier
+      rpms:
+        - rpm_name: rhc-playbook-verifier
+          description: rhc-playbook-verifier
+          dependencies:
+            - python3-pyyaml
     - srpm_name: redhat-cloud-client-configuration
       rpms:
         - rpm_name: redhat-cloud-client-configuration
@@ -61,9 +56,7 @@ data:
             - python3
             - python3-pyyaml
             - python3-requests
-            - python3-six
-    - srpm_name: insights-core-selinux
-      rpms:
+            - python3-rpm
         - rpm_name: insights-core-selinux
           description: insights-core-selinux
           dependencies:

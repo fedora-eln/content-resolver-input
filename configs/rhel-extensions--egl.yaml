@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Nvidia EGL
+  description: Nvidia EGL packages in the RHEL Extensions repository
+  maintainer: rhel-sst-gpu
+  packages:
+    - egl-gbm
+    - egl-wayland
+    - egl-wayland2
+    - egl-x11
+    - eglexternalplatform-devel
+  labels:
+    - eln-extras

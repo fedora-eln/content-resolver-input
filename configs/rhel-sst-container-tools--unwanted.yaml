@@ -6,9 +6,9 @@ data:
     Unwanted container runtime and related packages
 
   maintainer: rhel-sst-container-tools
-  unwanted_packages:
+  unwanted_source_packages:
     - containernetworking-plugins
-    - python3-podman-api
+    - python-podman-api
     - runc
     - yajl
   labels:

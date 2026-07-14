@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Scientific SIG
+  description: Extras packages maintained by the Scientific SIG
+  maintainer: scitech-sig
+  packages:
+    - GMT
+    - nco
+    - ncview
+    - octave
+    - wgrib2
+  labels:
+    - eln-extras

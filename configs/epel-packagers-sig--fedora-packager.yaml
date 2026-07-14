@@ -1,0 +1,28 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Fedora Packager
+  description: Tools and utilities needed by a Fedora Packager
+  maintainer: epel-packagers-sig
+  packages:
+    - bodhi-client
+    - fbrnch
+    - fedora-packager
+    - fedora-repoquery
+    - fedpkg
+    - fedrq
+    - git
+    - koji
+    - koji-tool
+    - mock
+    - pkgtreediff
+    - rhbzquery
+    - rpm-build
+    - rpmbuild-order
+    - rpmdevtools
+    - rpmdistro-repoquery
+    # build dependencies
+    - ghc-pkgtreediff-devel
+    - ghc-rpmbuild-order-devel
+  labels:
+    - eln-extras

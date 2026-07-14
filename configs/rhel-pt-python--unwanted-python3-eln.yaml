@@ -1,0 +1,25 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Unwanted Python 3 packages for ELN
+  description: Packages we do not want to ship for Python 3 in RHEL 11+
+  maintainer: rhel-pt-python
+  # See also rhel-pt-python--unwanted-python3.yaml, this only extends the set
+  unwanted_source_packages:
+    # older Python versions
+    - python3.12
+    - python3.13
+    - python3.14
+    # setuptools no longer needs this to build wheels
+    # https://github.com/fedora-eln/eln/issues/284
+    - python-wheel
+    # no further need for Python2 code compatibility
+    # https://github.com/fedora-eln/eln/issues/255
+    - python-six
+    # unmaintained upstream, to be deprecated in Fedora
+    # https://github.com/fedora-eln/eln/issues/431
+    - python-dateutil
+    # deprecated() compat package
+    - python-setuptools80
+  labels:
+    - eln

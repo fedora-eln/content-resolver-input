@@ -81,6 +81,7 @@ data:
     - glibc-langpack-hif
     - glibc-langpack-hne
     - glibc-langpack-hr
+    - glibc-langpack-hrx
     - glibc-langpack-hsb
     - glibc-langpack-ht
     - glibc-langpack-hu
@@ -112,10 +113,12 @@ data:
     - glibc-langpack-ln
     - glibc-langpack-lo
     - glibc-langpack-lt
+    - glibc-langpack-ltg
     - glibc-langpack-lv
     - glibc-langpack-lzh
     - glibc-langpack-mag
     - glibc-langpack-mai
+    - glibc-langpack-mdf
     - glibc-langpack-mfe
     - glibc-langpack-mg
     - glibc-langpack-mhr
@@ -159,6 +162,7 @@ data:
     - glibc-langpack-sah
     - glibc-langpack-sat
     - glibc-langpack-sc
+    - glibc-langpack-scn
     - glibc-langpack-sd
     - glibc-langpack-se
     - glibc-langpack-sgs

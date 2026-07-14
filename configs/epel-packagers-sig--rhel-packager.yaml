@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: RHEL packager
+  description: ELN Extras packages for RHEL maintainers
+  maintainer: epel-packagers-sig
+  packages:
+    - NetworkManager-openvpn-gnome
+    - centpkg
+  labels:
+    - eln-extras

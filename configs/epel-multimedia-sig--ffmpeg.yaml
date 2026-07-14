@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: FFmpeg
+  description: Multimedia SIG ELN Extras packages
+  maintainer: multimedia-sig
+  packages:
+    - ffmpeg-free
+    - ffmpeg-free-devel
+    - ffmpegthumbnailer
+    - gstreamer1-plugin-libav
+  labels:
+    - eln-extras

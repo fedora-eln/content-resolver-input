@@ -8,7 +8,7 @@ data:
     - emacs
     - emacs-lucid
     - emacs-nw
+    - emacs-pgtk
     - emacs-auctex
   labels:
     - eln
-    - c10s

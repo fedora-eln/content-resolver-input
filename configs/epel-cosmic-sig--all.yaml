@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: COSMIC Desktop
+  description: COSMIC Desktop ELN Extras packages
+  maintainer: cosmic-sig
+  packages:
+    # desktop components
+    - cosmic-session
+    # applications
+    - cosmic-edit
+    - cosmic-files
+    - cosmic-player
+    - cosmic-store
+    - cosmic-term
+    # additional components
+    - cutecosmic-qt6
+    - initial-setup-gui-wayland-cosmic
+  labels:
+    - eln-extras

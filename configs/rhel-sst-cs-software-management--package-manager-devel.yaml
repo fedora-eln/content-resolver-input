@@ -12,5 +12,4 @@ data:
     - python3-rpm
     - rpm-devel
   labels:
-    - eln
     - c10s

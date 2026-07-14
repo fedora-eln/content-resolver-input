@@ -1,0 +1,10 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  name: Exclude multilib-rpm-config
+  description: There are no more 32-bit builds for RHEL, so this package is not needed.
+  maintainer: rhel-pt-llvm-rust
+  unwanted_source_packages:
+    - multilib-rpm-config
+  labels:
+    - eln

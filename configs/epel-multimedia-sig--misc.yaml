@@ -1,0 +1,21 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ELN Extras Multimedia
+  description: Multimedia SIG ELN Extras packages
+  maintainer: multimedia-sig
+  packages:
+    - glad2
+    - ladspa-devel
+    - lv2-devel
+    - minidlna
+    - mpv
+    - uxplay
+    - vamp-plugin-sdk-devel
+  arch_packages:
+    aarch64:
+      - libva-nvidia-driver
+    x86_64:
+      - libva-nvidia-driver
+  labels:
+    - eln-extras

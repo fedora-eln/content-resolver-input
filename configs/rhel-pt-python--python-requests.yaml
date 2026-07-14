@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Python requests
+  description: Python HTTP library
+  maintainer: rhel-pt-python
+  packages:
+    - python3-requests
+  labels:
+    - eln
+    - c10s

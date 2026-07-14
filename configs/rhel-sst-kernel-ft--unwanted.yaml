@@ -6,7 +6,7 @@ data:
     Unwanted packages from Core-Kernel FT group
 
   maintainer: rhel-sst-kernel-ft
-  unwanted_packages:
+  unwanted_source_packages:
     - memkind
   labels:
     - eln
