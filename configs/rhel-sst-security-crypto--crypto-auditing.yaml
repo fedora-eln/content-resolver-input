@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: crypto-auditing services and utilities
+  description: Tools to monitor cryptographically-relevant events on the system
+  maintainer: rhel-sst-security-crypto
+  packages:
+    - crypto-auditing-agent
+  labels:
+    - eln
+    - c10s
