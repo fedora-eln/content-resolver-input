@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: sergiopr packages
+  description: sergiopr EPEL packages
+  maintainer: sergiopr
+  packages:
+    - gnuastro
+    - psfex
+    - sextractor
+  labels:
+    - eln-extras

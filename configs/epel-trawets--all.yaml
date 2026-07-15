@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: trawets packages
+  description: trawets EPEL packages
+  maintainer: trawets
+  packages:
+    - sloccount
+  labels:
+    - eln-extras

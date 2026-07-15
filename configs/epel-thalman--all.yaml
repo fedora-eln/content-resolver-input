@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: thalman packages
+  description: thalman EPEL packages
+  maintainer: thalman
+  packages:
+    - mod_auth_mellon
+  labels:
+    - eln-extras

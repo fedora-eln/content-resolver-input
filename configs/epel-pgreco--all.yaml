@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: pgreco packages
+  description: pgreco EPEL packages
+  maintainer: pgreco
+  packages:
+    - nbd
+    - noip
+    - proxychains-ng
+  labels:
+    - eln-extras

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: juliogonzalez packages
+  description: juliogonzalez EPEL packages
+  maintainer: juliogonzalez
+  packages:
+    - s3fs-fuse
+  labels:
+    - eln-extras

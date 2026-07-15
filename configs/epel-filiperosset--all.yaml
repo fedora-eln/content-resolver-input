@@ -1,0 +1,33 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: filiperosset packages
+  description: filiperosset EPEL packages
+  maintainer: filiperosset
+  packages:
+    - aime
+    - ansifilter
+    - bindfs
+    - bonnie++
+    - byobu
+    - clusterssh
+    - converseen
+    - darkhttpd
+    - dnsdist
+    - hd-idle
+    - hddfancontrol
+    - homebank
+    - igt-gpu-tools
+    - iverilog
+    - keychain
+    - mbuffer
+    - nwipe
+    - pdns-recursor
+    - pgrouting
+    - samurai
+    - sslh
+    - vcftools
+    - worker
+    - zmap
+  labels:
+    - eln-extras

@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: neil packages
+  description: neil EPEL packages
+  maintainer: neil
+  packages:
+    - aria2
+    - passwdqc
+  labels:
+    - eln-extras

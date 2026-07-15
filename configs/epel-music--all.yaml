@@ -5,6 +5,31 @@ data:
   description: ELN Extras packages maintained by Ben Beasley
   maintainer: music
   packages:
+    - Pencil2D
+    - arpwatch
+    - edac-utils
+    - eot-utils
+    - fastapi-cli
+    - fish
     - gi-docgen
+    - gram_grep
+    - hatch
+    - imagej
+    - jello
+    - ladspa-autotalent-plugins
+    - notejot
+    - opentype-sanitizer
+    - pipx
+    - pngcheck
+    - pre-commit
+    - qalculate-qt
+    - ruff
+    - sfnt2woff-zopfli
+    - unifdef
+    - wavbreaker
+    - wcd
+    - wdiff
+    - wlcs
+    - woff
   labels:
     - eln-extras

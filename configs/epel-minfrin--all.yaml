@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: minfrin packages
+  description: minfrin EPEL packages
+  maintainer: minfrin
+  packages:
+    - redwax-tool
+    - retry
+  labels:
+    - eln-extras

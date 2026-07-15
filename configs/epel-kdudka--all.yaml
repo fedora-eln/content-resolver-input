@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kdudka packages
+  description: kdudka EPEL packages
+  maintainer: kdudka
+  packages:
+    - csbuild
+    - csmock
+    - csmock-plugin-*
+  labels:
+    - eln-extras

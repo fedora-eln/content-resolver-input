@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: nphilipp packages
+  description: nphilipp EPEL packages
+  maintainer: nphilipp
+  packages:
+    - forgejo
+  labels:
+    - eln-extras

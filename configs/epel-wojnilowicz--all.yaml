@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: wojnilowicz packages
+  description: wojnilowicz EPEL packages
+  maintainer: wojnilowicz
+  packages:
+    - dmenu-wayland
+    - workrave
+  labels:
+    - eln-extras

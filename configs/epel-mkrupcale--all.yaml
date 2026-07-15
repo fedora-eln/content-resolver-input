@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mkrupcale packages
+  description: mkrupcale EPEL packages
+  maintainer: mkrupcale
+  packages:
+    - global
+    - qalculate-gtk
+    - unison
+  labels:
+    - eln-extras

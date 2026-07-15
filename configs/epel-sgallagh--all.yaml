@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: sgallagh packages
+  description: sgallagh EPEL packages
+  maintainer: sgallagh
+  packages:
+    - argbash
+  labels:
+    - eln-extras

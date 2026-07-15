@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: sic packages
+  description: sic EPEL packages
+  maintainer: sic
+  packages:
+    - nexus-tools
+  labels:
+    - eln-extras

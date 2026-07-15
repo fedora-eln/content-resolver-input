@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mavit packages
+  description: mavit EPEL packages
+  maintainer: mavit
+  packages:
+    - adobe-source-sans-pro-fonts
+    - auter
+    - termcolours
+  labels:
+    - eln-extras

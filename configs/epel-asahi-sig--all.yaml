@@ -1,0 +1,23 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Asahi
+  description: Asahi packages for ELN Extras
+  maintainer: asahi-sig
+  packages:
+    - a2jmidid
+    - apfs-fuse
+    - ideviceinstaller
+    - idevicerestore
+    - ifuse
+    - m1n1-tools
+    - usbmuxd
+  arch_packages:
+    aarch64:
+      - alsa-ucm-asahi
+      - asahi-audio
+      - asahi-installer-package
+      - plymouth-theme-asahi
+      - python3-asahi_firmware
+  labels:
+    - eln-extras

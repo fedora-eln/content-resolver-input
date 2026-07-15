@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: rjones packages
+  description: rjones EPEL packages
+  maintainer: rjones
+  packages:
+    - qemu-sanity-check
+  labels:
+    - eln-extras

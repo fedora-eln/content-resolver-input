@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: spot packages
+  description: spot EPEL packages
+  maintainer: spot
+  packages:
+    - busybox
+    - credentials-fetcher
+  labels:
+    - eln-extras

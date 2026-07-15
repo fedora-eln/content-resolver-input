@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: neteler packages
+  description: neteler EPEL packages
+  maintainer: neteler
+  packages:
+    - grass
+    - grass-gui
+  labels:
+    - eln-extras

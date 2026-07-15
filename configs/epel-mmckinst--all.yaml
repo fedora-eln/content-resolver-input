@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mmckinst packages
+  description: mmckinst EPEL packages
+  maintainer: mmckinst
+  packages:
+    - e3
+    - emacs-yaml-mode
+    - fex
+    - fpdns
+    - mg
+    - nawk
+  labels:
+    - eln-extras

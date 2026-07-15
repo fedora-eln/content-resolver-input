@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: lsm5 packages
+  description: lsm5 EPEL packages
+  maintainer: lsm5
+  packages:
+    - pack
+  labels:
+    - eln-extras

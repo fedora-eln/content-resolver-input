@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: tartare packages
+  description: tartare EPEL packages
+  maintainer: tartare
+  packages:
+    - ascii
+    - todocli
+    - tripwire
+  labels:
+    - eln-extras

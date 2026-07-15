@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mrc0mmand packages
+  description: mrc0mmand EPEL packages
+  maintainer: mrc0mmand
+  packages:
+    - dfuzzer
+    - reptyr
+  labels:
+    - eln-extras

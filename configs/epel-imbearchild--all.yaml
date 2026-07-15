@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: imbearchild packages
+  description: imbearchild EPEL packages
+  maintainer: imbearchild
+  packages:
+    - clash-meta
+  labels:
+    - eln-extras

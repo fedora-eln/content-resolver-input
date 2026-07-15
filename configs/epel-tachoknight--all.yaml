@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: tachoknight packages
+  description: tachoknight EPEL packages
+  maintainer: tachoknight
+  packages:
+    - nethack
+  labels:
+    - eln-extras

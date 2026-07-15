@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: praiskup packages
+  description: praiskup EPEL packages
+  maintainer: praiskup
+  packages:
+    - dist-git
+    - dist-git-client
+    - prunerepo
+    - pspg
+    - vcs-diff-lint
+  labels:
+    - eln-extras

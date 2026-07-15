@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: richardfearn packages
+  description: richardfearn EPEL packages
+  maintainer: richardfearn
+  packages:
+    - clide
+    - colordiff
+    - disktype
+    - ncdu
+    - txt2regex
+    - whowatch
+  labels:
+    - eln-extras

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: besser82 packages
+  description: besser82 EPEL packages
+  maintainer: besser82
+  packages:
+    - fdupes
+  labels:
+    - eln-extras

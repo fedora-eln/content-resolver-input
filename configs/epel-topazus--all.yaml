@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: topazus packages
+  description: topazus EPEL packages
+  maintainer: topazus
+  packages:
+    - hardinfo2
+    - sshguard
+    - sshguard-firewalld
+    - sshguard-nftables
+  labels:
+    - eln-extras

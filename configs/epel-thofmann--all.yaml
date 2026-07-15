@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: thofmann packages
+  description: thofmann EPEL packages
+  maintainer: thofmann
+  packages:
+    - opkssh
+    - opkssh-server
+  labels:
+    - eln-extras

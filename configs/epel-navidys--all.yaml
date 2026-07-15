@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: navidys packages
+  description: navidys EPEL packages
+  maintainer: navidys
+  packages:
+    - podman-tui
+  labels:
+    - eln-extras

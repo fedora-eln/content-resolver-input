@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mooninite packages
+  description: mooninite EPEL packages
+  maintainer: mooninite
+  packages:
+    - msktutil
+    - podman-compose
+  labels:
+    - eln-extras

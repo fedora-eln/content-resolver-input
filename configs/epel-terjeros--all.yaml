@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: terjeros packages
+  description: terjeros EPEL packages
+  maintainer: terjeros
+  packages:
+    - apt
+    - apt-utils
+    - ganglia
+    - ganglia-gmetad
+    - ganglia-gmond
+    - ganglia-web
+    - pssh
+    - recoll
+    - recoll-*
+    - scsi-target-utils
+    - xosview
+  labels:
+    - eln-extras

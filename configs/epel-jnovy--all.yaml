@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: jnovy packages
+  description: jnovy EPEL packages
+  maintainer: jnovy
+  packages:
+    - beaker-client
+  labels:
+    - eln-extras

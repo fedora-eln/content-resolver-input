@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: infraw packages
+  description: infraw EPEL packages
+  maintainer: infraw
+  packages:
+    - gobuster
+    - nuclei
+  labels:
+    - eln-extras

@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: sshil packages
+  description: sshil EPEL packages
+  maintainer: sshil
+  packages:
+    - fonts-compare
+    - whichfont
+  labels:
+    - eln-extras

@@ -1,0 +1,45 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: jonathanspw packages
+  description: jonathanspw EPEL packages
+  maintainer: jonathanspw
+  packages:
+    - afetch
+    - basez
+    - btop
+    - certbot
+    - cinfo
+    - clifm
+    - collectd
+    - davfs2
+    - dhcpdump
+    - dnstracer
+    - dumpet
+    - esc
+    - fastfetch
+    - freeipa-fas
+    - gif2png
+    - gpart
+    - hstr
+    - jdupes
+    - keydb
+    - kitty
+    - matterbridge
+    - mytop
+    - netplan
+    - nload
+    - novnc
+    - nuttcp
+    - opendbx-*
+    - opendkim
+    - opendkim-tools
+    - phoronix-test-suite
+    - pure-ftpd
+    - snapper
+    - snapper-backup
+    - pam_snapper
+    - vaultwarden
+    - wp-cli
+  labels:
+    - eln-extras

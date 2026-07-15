@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: sthiell packages
+  description: sthiell EPEL packages
+  maintainer: sthiell
+  packages:
+    - clustershell
+    - rush
+    - sasutils
+    - smp_utils
+  labels:
+    - eln-extras

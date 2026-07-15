@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: dbelyavs packages
+  description: dbelyavs EPEL packages
+  maintainer: dbelyavs
+  packages:
+    - fastnetmon
+  labels:
+    - eln-extras

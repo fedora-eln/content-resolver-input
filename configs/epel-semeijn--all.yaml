@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: semeijn packages
+  description: semeijn EPEL packages
+  maintainer: semeijn
+  packages:
+    - 3proxy
+    - dante-server
+    - memtester
+  labels:
+    - eln-extras

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: moceap packages
+  description: moceap EPEL packages
+  maintainer: moceap
+  packages:
+    - amiri-fonts-all
+  labels:
+    - eln-extras

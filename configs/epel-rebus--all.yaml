@@ -1,0 +1,33 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: rebus packages
+  description: rebus EPEL packages
+  maintainer: rebus
+  packages:
+    - OpenStego
+    - aesfix
+    - aeskeyfind
+    - bkhive
+    - dcfldd
+    - dd_rescue
+    - ddrescue
+    - dnsmap
+    - masscan
+    - md5deep
+    - msoffcrypto-tool
+    - nbtscan
+    - ncrack
+    - nikto
+    - nmbscan
+    - onesixtyone
+    - packETH
+    - radare2
+    - rizin
+    - samdump2
+    - sipcalc
+    - snmpcheck
+    - tcptrack
+    - vncpwd
+  labels:
+    - eln-extras

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: hobbes1069 packages
+  description: hobbes1069 EPEL packages
+  maintainer: hobbes1069
+  packages:
+    - BackupPC
+  labels:
+    - eln-extras

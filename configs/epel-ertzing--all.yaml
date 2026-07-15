@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ertzing packages
+  description: ertzing EPEL packages
+  maintainer: ertzing
+  packages:
+    - pam_url
+    - uwsgi
+    - uwsgi-*
+  labels:
+    - eln-extras

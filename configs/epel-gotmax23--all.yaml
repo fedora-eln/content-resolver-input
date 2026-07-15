@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gotmax23 packages
+  description: gotmax23 EPEL packages
+  maintainer: gotmax23
+  packages:
+    - ansible-collection-ansible-posix
+    - ansible-collection-community-crypto
+    - ansible-collection-community-general
+  labels:
+    - eln-extras

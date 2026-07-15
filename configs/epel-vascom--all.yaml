@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: vascom packages
+  description: vascom EPEL packages
+  maintainer: vascom
+  packages:
+    - hddtemp
+    - lsp-plugins-clap
+    - lsp-plugins-gstreamer
+    - lsp-plugins-jack
+    - lsp-plugins-ladspa
+    - lsp-plugins-lv2
+    - lsp-plugins-vst
+    - lsp-plugins-vst3
+    - mediainfo
+    - pwgen
+    - gstreamer1-svt-vp9
+  labels:
+    - eln-extras

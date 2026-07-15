@@ -17,5 +17,6 @@ data:
     - ocaml-facile-devel
     # for docs of various packages
     - rubygem-asciidoctor
+    - scdoc
   labels:
     - eln-extras

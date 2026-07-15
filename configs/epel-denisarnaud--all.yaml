@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: denisarnaud packages
+  description: denisarnaud EPEL packages
+  maintainer: denisarnaud
+  packages:
+    - tvlsim
+  labels:
+    - eln-extras

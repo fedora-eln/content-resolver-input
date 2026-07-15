@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kiilerix packages
+  description: kiilerix EPEL packages
+  maintainer: kiilerix
+  packages:
+    - mercurial
+  labels:
+    - eln-extras

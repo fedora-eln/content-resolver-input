@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: imbev packages
+  description: imbev EPEL packages
+  maintainer: imbev
+  packages:
+    - bootc-gtk
+    - pacman
+  labels:
+    - eln-extras

@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: sharkcz packages
+  description: sharkcz EPEL packages
+  maintainer: sharkcz
+  packages:
+    - codeblocks
+    - xarchiver
+  labels:
+    - eln-extras

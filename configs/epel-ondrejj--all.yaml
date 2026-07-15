@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ondrejj packages
+  description: ondrejj EPEL packages
+  maintainer: ondrejj
+  packages:
+    - atari800
+    - clamav-unofficial-sigs
+    - libnss-mysql
+    - nrpe
+  labels:
+    - eln-extras

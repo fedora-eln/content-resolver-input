@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: jdieter packages
+  description: jdieter EPEL packages
+  maintainer: jdieter
+  packages:
+    - duperemove
+    - fedora-repo-zdicts
+  labels:
+    - eln-extras

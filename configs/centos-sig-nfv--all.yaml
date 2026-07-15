@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: NFV
+  description: Packages that the CentOS NFV SIG cares about
+  maintainer: sig-nfv
+  packages:
+    - openvswitch
+    - openvswitch-devel
+    - openvswitch-ipsec
+    - openvswitch-test
+    - ovn
+    - ovn-central
+    - ovn-host
+    - ovn-vtep
+    - python3-openvswitch
+  labels:
+    - eln-extras

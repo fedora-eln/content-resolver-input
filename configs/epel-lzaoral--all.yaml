@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: lzaoral packages
+  description: lzaoral EPEL packages
+  maintainer: lzaoral
+  packages:
+    - conserver
+    - pinfo
+  labels:
+    - eln-extras

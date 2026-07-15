@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: pjgeorg packages
+  description: pjgeorg EPEL packages
+  maintainer: pjgeorg
+  packages:
+    - pass
+    - passmenu
+  labels:
+    - eln-extras

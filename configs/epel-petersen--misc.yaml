@@ -1,0 +1,44 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: petersen packages
+  description: Jens Petersen EPEL packages
+  maintainer: petersen
+  packages:
+    - Agda
+    - ShellCheck
+    - bench
+    - cadical
+    - darcs
+    - dhall
+    - dhall-json
+    - dl-fedora
+    - dnf-repo
+    - duc
+    - ghcid
+    - git-annex
+    - git-repair
+    - hello
+    - lsfrom
+    - idris
+    - idris2
+    - nix
+    - ostree-pin
+    - pandoc-cli
+    - patat
+    - racket
+    - racket-pkgs
+    - tart
+    # build dependencies
+    - ghc-Agda-devel
+    - ghc-ShellCheck-devel
+    - ghc-darcs-devel
+    - ghc-dhall-devel
+    - ghc-dhall-json-devel
+    - ghc-idris-devel
+    - ghc-patat-devel
+    - ghc-tart-devel
+    - ghc-pandoc-devel
+    - ghc-pandoc-server-devel
+  labels:
+    - eln-extras

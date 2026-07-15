@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: benniej packages
+  description: benniej EPEL packages
+  maintainer: benniej
+  packages:
+    - bgpq3
+  labels:
+    - eln-extras

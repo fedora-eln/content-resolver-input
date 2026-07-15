@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: fvorobev packages
+  description: fvorobev EPEL packages
+  maintainer: fvorobev
+  packages:
+    - dnscap
+  labels:
+    - eln-extras

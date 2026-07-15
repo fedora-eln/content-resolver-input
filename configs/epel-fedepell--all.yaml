@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: fedepell packages
+  description: fedepell EPEL packages
+  maintainer: fedepell
+  packages:
+    - bumpversion
+    - cage
+    - dropbear
+    - gammaray
+  labels:
+    - eln-extras

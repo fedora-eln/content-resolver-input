@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: rathann packages
+  description: rathann EPEL packages
+  maintainer: rathann
+  packages:
+    - gpac
+    - lbzip2
+    - ndisc6
+    - pax-utils
+  labels:
+    - eln-extras

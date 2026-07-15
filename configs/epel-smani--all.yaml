@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: smani packages
+  description: smani EPEL packages
+  maintainer: smani
+  packages:
+    - mapserver
+    - pbuilder
+    - yarnpkg
+  labels:
+    - eln-extras

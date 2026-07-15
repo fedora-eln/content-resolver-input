@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: dctrud packages
+  description: dctrud EPEL packages
+  maintainer: dctrud
+  packages:
+    - singularity-ce
+    - squashfs-tools-ng
+  labels:
+    - eln-extras

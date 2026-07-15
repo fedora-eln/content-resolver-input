@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: jogas packages
+  description: jogas EPEL packages
+  maintainer: jogas
+  packages:
+    - charliecloud
+    - charliecloud-image
+  labels:
+    - eln-extras

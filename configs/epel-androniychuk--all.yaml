@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: androniychuk packages
+  description: androniychuk EPEL packages
+  maintainer: androniychuk
+  packages: []
+  arch_packages:
+    x86_64:
+      - intel-compute-runtime
+      - intel-ipsec-mb
+      - intel-level-zero-gpu-raytracing
+      - intel-npu-driver
+  labels:
+    - eln-extras

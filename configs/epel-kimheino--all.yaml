@@ -1,0 +1,17 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kimheino packages
+  description: kimheino EPEL packages
+  maintainer: kimheino
+  packages:
+    - foomuuri
+    - foosnapper
+    - munin
+    - munin-apache
+    - munin-cgi
+    - munin-nginx
+    - munin-node
+    - munin-plugins-ruby
+  labels:
+    - eln-extras

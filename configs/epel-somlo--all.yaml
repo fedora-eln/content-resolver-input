@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: somlo packages
+  description: somlo EPEL packages
+  maintainer: somlo
+  packages:
+    - iperf
+  labels:
+    - eln-extras

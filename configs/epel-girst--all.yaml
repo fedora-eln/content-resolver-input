@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: girst packages
+  description: girst EPEL packages
+  maintainer: girst
+  packages:
+    - zsync
+  labels:
+    - eln-extras

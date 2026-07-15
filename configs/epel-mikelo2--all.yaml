@@ -1,0 +1,46 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mikelo2 packages
+  description: mikelo2 EPEL packages
+  maintainer: mikelo2
+  packages:
+    - age
+    - alertmanager
+    - bats
+    - betterleaks
+    - chezmoi
+    - cloc
+    - codespell
+    - duf
+    - f3
+    - fuse-btfs
+    - gdu
+    - gh
+    - glab
+    - helm
+    - helm3
+    - kustomize
+    - micro
+    - minify
+    - moreutils
+    - multitail
+    - nginx-mod-brotli
+    - nginx-mod-headers-more
+    - node-exporter
+    - opendmarc
+    - opendmarc-tools
+    - opentofu
+    - pg_top
+    - prometheus
+    - rclone
+    - restic
+    - shdoc
+    - ssh-audit
+    - staticcheck
+    - testssl
+    - tldr
+    - xq
+    - yq
+  labels:
+    - eln-extras

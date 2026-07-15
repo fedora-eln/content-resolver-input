@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: thm packages
+  description: thm EPEL packages
+  maintainer: thm
+  packages:
+    - etckeeper
+  labels:
+    - eln-extras

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: pnemade packages
+  description: pnemade EPEL packages
+  maintainer: pnemade
+  packages:
+    - fonttools
+  labels:
+    - eln-extras

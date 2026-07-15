@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: obudai packages
+  description: obudai EPEL packages
+  maintainer: obudai
+  packages:
+    - printer-driver-brlaser
+  labels:
+    - eln-extras

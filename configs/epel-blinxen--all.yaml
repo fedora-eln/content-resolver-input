@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: blinxen packages
+  description: blinxen EPEL packages
+  maintainer: blinxen
+  packages:
+    - helix
+    - helix-parsers
+    - helix-themes
+    - plantuml
+  labels:
+    - eln-extras

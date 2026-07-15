@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: aflyhorse packages
+  description: aflyhorse EPEL packages
+  maintainer: aflyhorse
+  packages:
+    - tinc
+  labels:
+    - eln-extras

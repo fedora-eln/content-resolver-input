@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: tdawson packages
+  description: tdawson EPEL packages
+  maintainer: tdawson
+  packages:
+    - gkrellm
+    - ncompress
+    - ufw
+  labels:
+    - eln-extras

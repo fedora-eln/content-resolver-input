@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: robmv packages
+  description: robmv EPEL packages
+  maintainer: robmv
+  packages:
+    - cups-pdf
+  labels:
+    - eln-extras

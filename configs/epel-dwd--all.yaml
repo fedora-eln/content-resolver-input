@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: dwd packages
+  description: dwd EPEL packages
+  maintainer: dwd
+  packages:
+    - apptainer
+    - apptainer-suid
+    - openbao
+  labels:
+    - eln-extras

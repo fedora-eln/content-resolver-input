@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: tieugene packages
+  description: tieugene EPEL packages
+  maintainer: tieugene
+  packages:
+    - knock
+    - knock-server
+    - nomacs
+    - nomacs-plugins
+    - socnetv
+  labels:
+    - eln-extras

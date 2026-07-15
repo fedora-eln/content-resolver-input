@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: cottsay packages
+  description: cottsay EPEL packages
+  maintainer: cottsay
+  packages:
+    - createrepo-agent
+    - lttng-tools
+    - openelp
+    - tango-icon-theme
+    - uhubctl
+  labels:
+    - eln-extras

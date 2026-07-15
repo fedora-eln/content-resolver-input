@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ganto packages
+  description: ganto EPEL packages
+  maintainer: ganto
+  packages:
+    - spectre-meltdown-checker
+  labels:
+    - eln-extras

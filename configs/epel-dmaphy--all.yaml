@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: dmaphy packages
+  description: dmaphy EPEL packages
+  maintainer: dmaphy
+  packages:
+    - geany
+    - terminator
+  labels:
+    - eln-extras

@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ingvar packages
+  description: ingvar EPEL packages
+  maintainer: ingvar
+  packages:
+    - hitch
+    - tayga
+  labels:
+    - eln-extras

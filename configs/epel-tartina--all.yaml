@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: tartina packages
+  description: tartina EPEL packages
+  maintainer: tartina
+  packages:
+    - nagios
+    - nagios-plugins-all
+  labels:
+    - eln-extras

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: onosek packages
+  description: onosek EPEL packages
+  maintainer: onosek
+  packages:
+    - fedpkg-minimal
+  labels:
+    - eln-extras

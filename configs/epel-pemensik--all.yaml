@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: pemensik packages
+  description: pemensik EPEL packages
+  maintainer: pemensik
+  packages:
+    - dnsjit
+    - ethq
+    - flamethrower
+    - getdns-utils
+  labels:
+    - eln-extras

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: jorton packages
+  description: jorton EPEL packages
+  maintainer: jorton
+  packages:
+    - mod_security
+  labels:
+    - eln-extras

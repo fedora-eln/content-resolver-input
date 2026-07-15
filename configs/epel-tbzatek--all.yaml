@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: tbzatek packages
+  description: tbzatek EPEL packages
+  maintainer: tbzatek
+  packages:
+    - nvme-stas
+  labels:
+    - eln-extras

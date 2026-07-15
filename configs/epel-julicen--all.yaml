@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: julicen packages
+  description: julicen EPEL packages
+  maintainer: julicen
+  packages:
+    - msedit
+  labels:
+    - eln-extras

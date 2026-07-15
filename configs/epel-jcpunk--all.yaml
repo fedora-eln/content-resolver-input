@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: jcpunk packages
+  description: jcpunk EPEL packages
+  maintainer: jcpunk
+  packages:
+    - jsonnet
+    - monitor-edid
+    - ocsinventory-agent
+    - shell-timeout
+  labels:
+    - eln-extras

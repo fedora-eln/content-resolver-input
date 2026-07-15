@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kevin packages
+  description: kevin EPEL packages
+  maintainer: kevin
+  packages:
+    - apg
+    - fatrace
+    - incron
+    - picocom
+    - rkhunter
+    - spamassassin
+    - sshuttle
+  labels:
+    - eln-extras

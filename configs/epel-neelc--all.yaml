@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: neelc packages
+  description: neelc EPEL packages
+  maintainer: neelc
+  packages:
+    - accel-ppp
+    - fyi
+    - smtprelay
+    - spoofdpi
+    - ttyd
+  labels:
+    - eln-extras

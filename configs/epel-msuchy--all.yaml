@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: msuchy packages
+  description: msuchy EPEL packages
+  maintainer: msuchy
+  packages:
+    - create-fake-rpm
+    - license-validate
+    - obs-signd
+    - rpmconf
+  labels:
+    - eln-extras

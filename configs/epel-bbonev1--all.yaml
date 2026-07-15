@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: bbonev1 packages
+  description: bbonev1 EPEL packages
+  maintainer: bbonev1
+  packages:
+    - bmon
+    - bpfmon
+    - ifstat
+  labels:
+    - eln-extras

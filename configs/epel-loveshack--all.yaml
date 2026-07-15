@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: loveshack packages
+  description: loveshack EPEL packages
+  maintainer: loveshack
+  packages:
+    - cube
+    - genders
+    - jcuber
+    - procenv
+  labels:
+    - eln-extras
