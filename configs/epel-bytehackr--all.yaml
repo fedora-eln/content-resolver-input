@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: bytehackr packages
+  description: bytehackr EPEL packages
+  maintainer: bytehackr
+  packages:
+    - sslscan
+  labels:
+    - eln-extras

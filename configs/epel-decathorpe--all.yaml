@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: decathorpe packages
+  description: decathorpe EPEL packages
+  maintainer: decathorpe
+  packages:
+    - ntpd-rs
+    - syncthing
+  labels:
+    - eln-extras

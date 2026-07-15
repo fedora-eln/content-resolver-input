@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: bevhost packages
+  description: bevhost EPEL packages
+  maintainer: bevhost
+  packages:
+    - mysql-mmm
+    - mysql-mmm-agent
+    - mysql-mmm-monitor
+    - mysql-mmm-tools
+    - wide-dhcpv6
+  labels:
+    - eln-extras

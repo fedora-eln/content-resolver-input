@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: fed500 packages
+  description: fed500 EPEL packages
+  maintainer: fed500
+  packages:
+    - openarm-can-utils
+  labels:
+    - eln-extras

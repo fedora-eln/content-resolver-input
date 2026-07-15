@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: bubeck packages
+  description: bubeck EPEL packages
+  maintainer: bubeck
+  packages:
+    - keepass
+  labels:
+    - eln-extras

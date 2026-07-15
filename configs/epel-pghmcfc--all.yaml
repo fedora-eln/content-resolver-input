@@ -1,0 +1,18 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: pghmcfc packages
+  description: pghmcfc EPEL packages
+  maintainer: pghmcfc
+  packages:
+    - bluefish
+    - gtkwave
+    - milter-greylist
+    - perltidy
+    - proftpd
+    - proftpd-*
+    - rbldnsd
+    - spamass-milter
+    - spamass-milter-postfix
+  labels:
+    - eln-extras

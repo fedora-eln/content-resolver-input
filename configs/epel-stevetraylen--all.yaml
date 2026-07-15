@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: stevetraylen packages
+  description: stevetraylen EPEL packages
+  maintainer: stevetraylen
+  packages:
+    - alpine
+    - cadaver
+    - diskimage-builder
+    - edg-gridftp-client
+    - edg-mkgridmap
+    - fetch-crl
+    - git2cl
+    - stomppy
+    - tig
+    - uberftp
+    - xfig
+  labels:
+    - eln-extras

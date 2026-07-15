@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: germano packages
+  description: germano EPEL packages
+  maintainer: germano
+  packages:
+    - apcupsd-cgi
+    - apcupsd-gui
+    - boinc-client
+    - boinc-manager
+    - boinc-tui
+    - keepassxc
+  labels:
+    - eln-extras

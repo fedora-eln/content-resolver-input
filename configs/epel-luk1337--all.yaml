@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: luk1337 packages
+  description: luk1337 EPEL packages
+  maintainer: luk1337
+  packages:
+    - nginx-mod-fancyindex
+    - weechat
+  labels:
+    - eln-extras

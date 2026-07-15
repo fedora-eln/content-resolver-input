@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mikep packages
+  description: mikep EPEL packages
+  maintainer: mikep
+  packages:
+    - gnupg-pkcs11-scd
+    - pocketsphinx
+    - pocketsphinx-plugin
+  labels:
+    - eln-extras

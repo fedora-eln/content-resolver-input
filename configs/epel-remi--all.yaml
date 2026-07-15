@@ -1,0 +1,17 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: remi packages
+  description: remi EPEL packages
+  maintainer: remi
+  packages:
+    - composer
+    - phpMyAdmin
+    - pie
+    - rnp
+    - roundcubemail
+    - syslog-ng
+    - syslog-ng-*
+    - wordpress
+  labels:
+    - eln-extras

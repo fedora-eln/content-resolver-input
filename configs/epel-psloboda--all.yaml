@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: psloboda packages
+  description: psloboda EPEL packages
+  maintainer: psloboda
+  packages:
+    - postgresql18-pg_partman
+  labels:
+    - eln-extras

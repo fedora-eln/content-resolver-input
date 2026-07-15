@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: pbrady packages
+  description: pbrady EPEL packages
+  maintainer: pbrady
+  packages:
+    - crudini
+  labels:
+    - eln-extras

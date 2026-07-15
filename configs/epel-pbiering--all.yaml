@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: pbiering packages
+  description: pbiering EPEL packages
+  maintainer: pbiering
+  packages:
+    - cronolog
+    - ipv6calc
+    - ipv6calc-ipv6calcweb
+    - ipv6calc-mod_ipv6calc
+    - radicale3
+    - radicale3-*
+  labels:
+    - eln-extras

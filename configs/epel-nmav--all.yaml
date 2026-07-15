@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: nmav packages
+  description: nmav EPEL packages
+  maintainer: nmav
+  packages:
+    - ocserv
+  labels:
+    - eln-extras

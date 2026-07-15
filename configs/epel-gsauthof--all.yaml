@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: gsauthof packages
+  description: gsauthof EPEL packages
+  maintainer: gsauthof
+  packages:
+    - datamash
+    - dracut-sshd
+  labels:
+    - eln-extras

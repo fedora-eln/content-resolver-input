@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: smooge packages
+  description: smooge EPEL packages
+  maintainer: smooge
+  packages:
+    - dlt-daemon
+    - dlt-examples
+    - dlt-tools
+    - ramalama
+    - vsomeip3-routingmanager
+    - vsomeip3-tools
+  labels:
+    - eln-extras

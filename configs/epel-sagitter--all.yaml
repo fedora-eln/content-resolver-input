@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: sagitter packages
+  description: sagitter EPEL packages
+  maintainer: sagitter
+  packages:
+    - engauge-digitizer
+    - qcad
+    - scons
+  labels:
+    - eln-extras

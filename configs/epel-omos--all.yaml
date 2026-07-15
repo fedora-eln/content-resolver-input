@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: omos packages
+  description: omos EPEL packages
+  maintainer: omos
+  packages:
+    - stockfish
+    - strawberry
+    - virtme-ng
+  labels:
+    - eln-extras

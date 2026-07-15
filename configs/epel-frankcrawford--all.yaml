@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: frankcrawford packages
+  description: frankcrawford EPEL packages
+  maintainer: frankcrawford
+  packages:
+    - c-icap
+    - c-icap-modules
+    - hash-slinger
+    - s3cmd
+    - squidclamav
+    - tuptime
+  labels:
+    - eln-extras

@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: eclipseo packages
+  description: eclipseo EPEL packages
+  maintainer: eclipseo
+  packages:
+    - bcal
+    - ddgr
+    - dnscrypt-proxy
+    - goodvibes
+    - lastpass-cli
+  labels:
+    - eln-extras

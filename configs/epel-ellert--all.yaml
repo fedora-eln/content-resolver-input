@@ -1,0 +1,28 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ellert packages
+  description: ellert EPEL packages
+  maintainer: ellert
+  packages:
+    - bdii
+    - castxml
+    - dcap
+    - dcap-tunnel-*
+    - gsi-openssh
+    - gsi-openssh-clients
+    - gsi-openssh-keysign
+    - gsi-openssh-server
+    - myproxy
+    - myproxy-admin
+    - myproxy-server
+    - myproxy-voms
+    - nordugrid-arc-nagios-plugins
+    - nordugrid-arc-nagios-plugins-egi
+    - oidc-agent-cli
+    - oidc-agent-desktop
+    - voms-clients-cpp
+    - voms-server
+    - voms-mysql-plugin
+  labels:
+    - eln-extras

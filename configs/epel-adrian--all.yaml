@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: adrian packages
+  description: adrian EPEL packages
+  maintainer: adrian
+  packages:
+    - checkpointctl
+    - vnstat
+  labels:
+    - eln-extras

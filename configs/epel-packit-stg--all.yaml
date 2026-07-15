@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: packit-stg packages
+  description: packit-stg EPEL packages
+  maintainer: packit-stg
+  packages:
+    - packit
+  labels:
+    - eln-extras

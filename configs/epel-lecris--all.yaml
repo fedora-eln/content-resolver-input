@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: lecris packages
+  description: lecris EPEL packages
+  maintainer: lecris
+  packages:
+    - tmt
+    - tmt+all
+  labels:
+    - eln-extras

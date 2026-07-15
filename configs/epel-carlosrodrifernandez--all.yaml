@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: carlosrodrifernandez packages
+  description: carlosrodrifernandez EPEL packages
+  maintainer: carlosrodrifernandez
+  packages:
+    - yank
+  labels:
+    - eln-extras

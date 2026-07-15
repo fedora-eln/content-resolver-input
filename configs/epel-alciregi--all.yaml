@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: alciregi packages
+  description: alciregi EPEL packages
+  maintainer: alciregi
+  packages:
+    - distrobox
+    - redir
+  labels:
+    - eln-extras

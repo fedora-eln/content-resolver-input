@@ -1,0 +1,30 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: salimma packages
+  description: salimma EPEL packages
+  maintainer: salimma
+  packages:
+    - archlinux-keyring
+    - autojump
+    - fennel
+    - fira-code-fonts
+    - git-review
+    - go-mmproxy
+    - khard
+    - lagrange
+    - linkchecker
+    - nickle
+    - nvtop
+    - plymouth-theme-hot-dog
+    - psi-notify
+    - squashfuse
+    - stow
+    - vdirsyncer
+    - xbean
+    - xdg-terminal-exec
+    - zcfan
+    - zeal
+    - zile
+  labels:
+    - eln-extras

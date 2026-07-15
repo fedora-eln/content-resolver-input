@@ -8,6 +8,7 @@ data:
     - glad2
     - ladspa-devel
     - lv2-devel
+    - mediainfo
     - minidlna
     - mpv
     - uxplay

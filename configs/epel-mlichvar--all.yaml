@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mlichvar packages
+  description: mlichvar EPEL packages
+  maintainer: mlichvar
+  packages:
+    - ntpsec
+    - rpmreaper
+  labels:
+    - eln-extras

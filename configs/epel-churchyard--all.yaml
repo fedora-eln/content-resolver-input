@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: churchyard packages
+  description: churchyard EPEL packages
+  maintainer: churchyard
+  packages:
+    - openscad
+    - openscad-MCAD
+    - tty-copy
+  labels:
+    - eln-extras

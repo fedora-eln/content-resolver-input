@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: cstratak packages
+  description: cstratak EPEL packages
+  maintainer: cstratak
+  packages:
+    - qbittorrent
+  labels:
+    - eln-extras

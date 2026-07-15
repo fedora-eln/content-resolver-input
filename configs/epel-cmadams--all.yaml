@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: cmadams packages
+  description: cmadams EPEL packages
+  maintainer: cmadams
+  packages:
+    - dhcpd-pools
+    - up-imapproxy
+    - virtnbdbackup
+  labels:
+    - eln-extras

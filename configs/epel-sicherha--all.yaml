@@ -1,0 +1,17 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: sicherha packages
+  description: sicherha EPEL packages
+  maintainer: sicherha
+  packages:
+    - cmakelang
+    - git-cola
+    - git-imerge
+    - katarakt
+    - mold
+    - powerline
+    - tmux-powerline
+    - vim-powerline
+  labels:
+    - eln-extras

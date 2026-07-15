@@ -1,0 +1,26 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ngompa packages
+  description: ngompa EPEL packages
+  maintainer: ngompa
+  packages:
+    - VK_hdr_layer
+    - almalinux-git-utils
+    - appx-util
+    - deskflow
+    - initial-setup
+    - initial-setup-gui
+    - initial-setup-gui-wayland-generic
+    - kiwi
+    - kurchu
+    - lsb_release
+    - miriway-session
+    - musl-clang
+    - musl-gcc
+    - waycheck
+    - waynergy
+    - waynergy-kde
+    - wayvnc
+  labels:
+    - eln-extras

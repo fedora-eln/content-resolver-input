@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: cheese packages
+  description: cheese EPEL packages
+  maintainer: cheese
+  packages:
+    - lolcat
+    - mysqltuner
+  labels:
+    - eln-extras

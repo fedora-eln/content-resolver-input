@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: vtrefny packages
+  description: vtrefny EPEL packages
+  maintainer: vtrefny
+  packages:
+    - blivet-gui
+    - earlyoom
+    - sl
+  labels:
+    - eln-extras

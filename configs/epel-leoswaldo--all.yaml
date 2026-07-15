@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: leoswaldo packages
+  description: leoswaldo EPEL packages
+  maintainer: leoswaldo
+  packages:
+    - fluent-bit
+  labels:
+    - eln-extras

@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: pwu packages
+  description: pwu EPEL packages
+  maintainer: pwu
+  packages:
+    - ibus-rime
+    - wqy-zenhei-fonts
+  labels:
+    - eln-extras

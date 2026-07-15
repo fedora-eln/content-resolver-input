@@ -1,0 +1,15 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mhlavink packages
+  description: mhlavink EPEL packages
+  maintainer: mhlavink
+  packages:
+    - arm-none-eabi-gcc-cs
+    - nut
+    - nut-cgi
+    - nut-client
+    - nut-monitor
+    - nut-xml
+  labels:
+    - eln-extras

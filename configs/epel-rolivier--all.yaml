@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: rolivier packages
+  description: rolivier EPEL packages
+  maintainer: rolivier
+  packages:
+    - goose
+  labels:
+    - eln-extras

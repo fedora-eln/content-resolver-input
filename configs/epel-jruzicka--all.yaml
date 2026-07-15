@@ -1,0 +1,17 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: jruzicka packages
+  description: jruzicka EPEL packages
+  maintainer: jruzicka
+  packages:
+    - knot
+    - knot-dnssecutils
+    - knot-module-dnstap
+    - knot-module-geoip
+    - knot-resolver
+    - knot-resolver-module-dnstap
+    - knot-resolver-module-http
+    - knot-utils
+  labels:
+    - eln-extras

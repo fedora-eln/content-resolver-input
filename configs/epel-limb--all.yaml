@@ -1,0 +1,28 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: limb packages
+  description: limb EPEL packages
+  maintainer: limb
+  packages:
+    - atop
+    - clearsilver
+    - cowsay
+    - distcc
+    - distcc-gnome
+    - distcc-server
+    - easy-rsa
+    - filezilla
+    - firebird
+    - gftp
+    - gitolite3
+    - lighttpd
+    - lighttpd-fastcgi
+    - lighttpd-mod_*
+    - lynis
+    - ncftp
+    - privoxy
+    - pylint
+    - stellarium
+  labels:
+    - eln-extras

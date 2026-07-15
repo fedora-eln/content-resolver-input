@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: jhladky packages
+  description: jhladky EPEL packages
+  maintainer: jhladky
+  packages:
+    - aespipe
+    - dieharder
+    - haveged
+    - practrand
+  labels:
+    - eln-extras

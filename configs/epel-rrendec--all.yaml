@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: rrendec packages
+  description: rrendec EPEL packages
+  maintainer: rrendec
+  packages:
+    - netrate
+  labels:
+    - eln-extras

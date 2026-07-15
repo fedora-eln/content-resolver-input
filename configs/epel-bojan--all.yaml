@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: bojan packages
+  description: bojan EPEL packages
+  maintainer: bojan
+  packages:
+    - pypolicyd-spf
+    - pypolicyd-spf-milter
+    - tcpreplay
+  labels:
+    - eln-extras

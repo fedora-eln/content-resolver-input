@@ -1,0 +1,38 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: slaanesh packages
+  description: slaanesh EPEL packages
+  maintainer: slaanesh
+  packages:
+    - appliance-tools
+    - bacula-client
+    - bacula-console
+    - bacula-console-bat
+    - bacula-director
+    - bacula-logwatch
+    - bacula-storage
+    - bacula-traymonitor
+    - barman
+    - barman-cli
+    - bitcoin-core
+    - debconf
+    - debconf-utils
+    - debhelper
+    - debmirror
+    - dkms
+    - figlet
+    - iscan-firmware
+    - jfrog-cli
+    - libvpl-tools
+    - pgbouncer
+    - pulp-cli
+    - steam-devices
+  arch_packages:
+    aarch64:
+      - imhex
+    x86_64:
+      - imhex
+      - intel-vpl-gpu-rt
+  labels:
+    - eln-extras

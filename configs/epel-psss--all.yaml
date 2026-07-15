@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: psss packages
+  description: psss EPEL packages
+  maintainer: psss
+  packages:
+    - did
+  labels:
+    - eln-extras

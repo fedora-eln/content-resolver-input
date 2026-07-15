@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mikaku packages
+  description: mikaku EPEL packages
+  maintainer: mikaku
+  packages:
+    - monitorix
+  labels:
+    - eln-extras

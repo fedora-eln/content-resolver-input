@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mstevens packages
+  description: mstevens EPEL packages
+  maintainer: mstevens
+  packages:
+    - pdns
+    - pdns-backend-*
+  labels:
+    - eln-extras

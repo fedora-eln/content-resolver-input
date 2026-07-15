@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: hiwkby packages
+  description: hiwkby EPEL packages
+  maintainer: hiwkby
+  packages:
+    - k2hash
+  labels:
+    - eln-extras

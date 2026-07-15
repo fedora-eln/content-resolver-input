@@ -1,0 +1,24 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: kni packages
+  description: kni EPEL packages
+  maintainer: kni
+  packages:
+    - cambozola
+    - dymo-cups-drivers
+    - dymo-cups-drivers-lw5xx
+    - fcgiwrap
+    - hdhomerun
+    - mod_perl
+    - netatalk
+    - nextcloud
+    - nextcloud-httpd
+    - nextcloud-mysql
+    - nextcloud-nginx
+    - nextcloud-postgresql
+    - nextcloud-sqlite
+    - pmount
+    - rtl-433
+  labels:
+    - eln-extras

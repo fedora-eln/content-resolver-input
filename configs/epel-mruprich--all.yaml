@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mruprich packages
+  description: mruprich EPEL packages
+  maintainer: mruprich
+  packages:
+    - rsh
+  labels:
+    - eln-extras

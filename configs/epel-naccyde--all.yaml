@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: naccyde packages
+  description: naccyde EPEL packages
+  maintainer: naccyde
+  packages:
+    - bpfilter
+  labels:
+    - eln-extras

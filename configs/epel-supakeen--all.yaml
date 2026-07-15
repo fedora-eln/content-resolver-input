@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: supakeen packages
+  description: supakeen EPEL packages
+  maintainer: supakeen
+  packages:
+    - koji-image-builder
+    - koji-image-builder-builder
+    - koji-image-builder-cli
+    - koji-image-builder-hub
+  labels:
+    - eln-extras

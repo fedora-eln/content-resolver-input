@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: buc packages
+  description: buc EPEL packages
+  maintainer: buc
+  packages:
+    - phpldapadmin
+    - yad
+  labels:
+    - eln-extras

@@ -1,0 +1,77 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: robert packages
+  description: robert EPEL packages
+  maintainer: robert
+  packages:
+    - aggregate6
+    - amavisd-milter
+    - apachetop
+    - arj
+    - audacious
+    - audacious-plugins
+    - audacious-plugins-amidi
+    - audacious-plugins-exotic
+    - audacious-plugins-ffaudio
+    - audacious-plugins-jack
+    - baresip
+    - baresip-*
+    - bgpdump
+    - bgpq4
+    - bird
+    - bridge-utils
+    - calamaris
+    - coturn
+    - coturn-utils
+    - dehydrated
+    - dislocker
+    - fuse-dislocker
+    - efifs
+    - eggdrop
+    - elinks
+    - freeze
+    - grepcidr
+    - guacd # guacamole-server
+    - icedtea-web
+    - ipv6toolkit
+    - jupp
+    - lxi-tools
+    - mdns-repeater
+    - mdns-scan
+    - mimedefang
+    - mod_authnz_external
+    - mod_maxminddb
+    - netcat
+    - nomarch
+    - openbgpd
+    - pamtester
+    - partclone
+    - pcsc-cyberjack
+    - pcsc-cyberjack-cjflash
+    - pdfgrep
+    - pdftk-java
+    - postfwd
+    - prosody
+    - pxz
+    - pyzor
+    - radsecproxy
+    - rpki-client
+    - rs
+    - rsnapshot
+    - signify
+    - spamassassin-dqs
+    - spamassassin-iXhash2
+    - ssldump
+    - swaks
+    - t1utils
+    - thc-ipv6
+    - tio
+    - unrealircd
+    - unrealircd-maxmind
+    - w3m
+    - w3m-img
+    - x509viewer
+    - zerofree
+  labels:
+    - eln-extras

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: dchen packages
+  description: dchen EPEL packages
+  maintainer: dchen
+  packages:
+    - artwiz-aleczapka-fonts
+  labels:
+    - eln-extras

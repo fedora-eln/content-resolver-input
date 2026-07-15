@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: grenier packages
+  description: grenier EPEL packages
+  maintainer: grenier
+  packages:
+    - testdisk
+  labels:
+    - eln-extras

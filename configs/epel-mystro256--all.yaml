@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mystro256 packages
+  description: mystro256 EPEL packages
+  maintainer: mystro256
+  packages:
+    - gnome-shell-extension-caffeine
+  labels:
+    - eln-extras

@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: marcindulak packages
+  description: marcindulak EPEL packages
+  maintainer: marcindulak
+  packages:
+    - gpaw-setups
+  labels:
+    - eln-extras

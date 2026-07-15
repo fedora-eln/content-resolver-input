@@ -1,0 +1,27 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: carlwgeorge packages
+  description: carlwgeorge EPEL packages
+  maintainer: carlwgeorge
+  packages:
+    - ack
+    - caddy
+    - fedora-messaging
+    - fzf
+    - glow
+    - gnome-shell-extension-appindicator
+    - gnome-shell-extension-blur-my-shell
+    - gnome-shell-extension-forge
+    - gnome-shell-extension-just-perfection
+    - gnome-shell-extension-vertical-workspaces
+    - gum
+    - jetbrains-mono-fonts-all
+    - nginx-mod-vts
+    - sbsigntools
+    - tinyproxy
+    - unrar
+    - unrar-free
+    - xpanes
+  labels:
+    - eln-extras

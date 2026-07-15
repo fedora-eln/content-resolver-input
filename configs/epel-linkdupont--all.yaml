@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: linkdupont packages
+  description: linkdupont EPEL packages
+  maintainer: linkdupont
+  packages:
+    - kcat
+    - swift-lang
+  labels:
+    - eln-extras

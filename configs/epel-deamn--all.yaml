@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: deamn packages
+  description: deamn EPEL packages
+  maintainer: deamn
+  packages:
+    - mbpoll
+  labels:
+    - eln-extras

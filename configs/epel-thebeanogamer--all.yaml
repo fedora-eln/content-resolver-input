@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: thebeanogamer packages
+  description: thebeanogamer EPEL packages
+  maintainer: thebeanogamer
+  packages:
+    - reStream
+    - remmina
+    - remmina-gnome-session
+    - remmina-plugins-*
+  labels:
+    - eln-extras

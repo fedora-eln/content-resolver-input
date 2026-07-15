@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: tagoh packages
+  description: tagoh EPEL packages
+  maintainer: tagoh
+  packages:
+    - nkf
+    - vl-gothic-fonts-all
+  labels:
+    - eln-extras

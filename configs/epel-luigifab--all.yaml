@@ -1,0 +1,12 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: luigifab packages
+  description: luigifab EPEL packages
+  maintainer: luigifab
+  packages:
+    - awf-gtk2
+    - awf-gtk3
+    - awf-gtk4
+  labels:
+    - eln-extras

@@ -5,8 +5,10 @@ data:
   description: GNOME packages for ELN Extras
   maintainer: gnome-sig
   packages:
+    - adwaita-fonts-all
     - devhelp
     - evolution
+    - evolution-ews
     - gnome-tweaks
     - gucharmap
     - meld

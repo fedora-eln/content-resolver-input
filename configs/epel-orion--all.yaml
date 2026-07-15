@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: orion packages
+  description: orion EPEL packages
+  maintainer: orion
+  packages:
+    - fail2ban-all
+    - gifsicle
+    - GraphicsMagick
+    - gv
+    - kpcli
+    - kstart
+    - mod_xsendfile
+    - pam_2fa
+    - pam_yubico
+    - rdesktop
+    - x2gokdriveclient
+  labels:
+    - eln-extras

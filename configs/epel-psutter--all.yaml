@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: psutter packages
+  description: psutter EPEL packages
+  maintainer: psutter
+  packages:
+    - iptstate
+  labels:
+    - eln-extras

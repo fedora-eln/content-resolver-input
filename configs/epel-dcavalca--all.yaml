@@ -1,0 +1,27 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: dcavalca packages
+  description: dcavalca EPEL packages
+  maintainer: dcavalca
+  packages:
+    - adobe-source-code-pro-fonts
+    - adobe-source-code-vf-fonts
+    - Carla-vst
+    - lv2-carla
+    - gcc-*-linux-gnu # cross-gcc
+    - fcode-utils
+    - fontawesome-fonts-all
+    - ndppd
+    - netperf
+    - rarpd
+    - switchtec
+  arch_packages:
+    aarch64:
+      - lzfse
+    ppc64le:
+      - lzfse
+    x86_64:
+      - lzfse
+  labels:
+    - eln-extras

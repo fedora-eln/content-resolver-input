@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: jflory7 packages
+  description: jflory7 EPEL packages
+  maintainer: jflory7
+  packages:
+    - zork
+  labels:
+    - eln-extras

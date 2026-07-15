@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: jdekloe packages
+  description: jdekloe EPEL packages
+  maintainer: jdekloe
+  packages:
+    - eccodes
+  labels:
+    - eln-extras

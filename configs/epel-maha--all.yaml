@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: maha packages
+  description: maha EPEL packages
+  maintainer: maha
+  packages:
+    - google-authenticator
+    - tor
+  labels:
+    - eln-extras

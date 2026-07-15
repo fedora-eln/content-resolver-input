@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: eseyman packages
+  description: eseyman EPEL packages
+  maintainer: eseyman
+  packages:
+    - ldapvi
+  labels:
+    - eln-extras

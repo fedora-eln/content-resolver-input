@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ipedrosa packages
+  description: ipedrosa EPEL packages
+  maintainer: ipedrosa
+  packages:
+    - pam_radius
+  labels:
+    - eln-extras

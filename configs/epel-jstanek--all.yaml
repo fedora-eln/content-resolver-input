@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: jstanek packages
+  description: jstanek EPEL packages
+  maintainer: jstanek
+  packages:
+    - git-crypt
+  labels:
+    - eln-extras

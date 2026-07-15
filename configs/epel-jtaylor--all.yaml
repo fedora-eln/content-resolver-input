@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: jtaylor packages
+  description: jtaylor EPEL packages
+  maintainer: jtaylor
+  packages:
+    - pam_script
+    - suricata
+  labels:
+    - eln-extras

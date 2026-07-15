@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: frostyx packages
+  description: frostyx EPEL packages
+  maintainer: frostyx
+  packages:
+    - copr-cli
+  labels:
+    - eln-extras

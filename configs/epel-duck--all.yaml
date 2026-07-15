@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: duck packages
+  description: duck EPEL packages
+  maintainer: duck
+  packages:
+    - needrestart
+  labels:
+    - eln-extras

@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: jorti packages
+  description: jorti EPEL packages
+  maintainer: jorti
+  packages:
+    - amavis
+    - amavis-snmp
+  labels:
+    - eln-extras

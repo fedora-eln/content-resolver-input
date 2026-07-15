@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: nforro packages
+  description: nforro EPEL packages
+  maintainer: nforro
+  packages:
+    - joe
+  labels:
+    - eln-extras

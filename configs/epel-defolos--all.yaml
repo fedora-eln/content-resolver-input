@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: defolos packages
+  description: defolos EPEL packages
+  maintainer: defolos
+  packages:
+    - gcovr
+  labels:
+    - eln-extras

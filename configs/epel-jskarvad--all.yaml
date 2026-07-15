@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: jskarvad packages
+  description: jskarvad EPEL packages
+  maintainer: jskarvad
+  packages:
+    - exim
+    - netsniff-ng
+    - sendmail
+    - sendmail-cf
+    - uhd
+    - uhd-firmware
+    - uhd-tools
+  labels:
+    - eln-extras

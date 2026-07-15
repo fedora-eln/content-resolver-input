@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: pbrobinson packages
+  description: pbrobinson EPEL packages
+  maintainer: pbrobinson
+  packages:
+    - can-utils
+  labels:
+    - eln-extras

@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ron packages
+  description: ron EPEL packages
+  maintainer: ron
+  packages:
+    - bcftools
+    - samtools
+  labels:
+    - eln-extras

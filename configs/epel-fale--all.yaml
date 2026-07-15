@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: fale packages
+  description: fale EPEL packages
+  maintainer: fale
+  packages:
+    - goaccess
+    - nsd
+  labels:
+    - eln-extras

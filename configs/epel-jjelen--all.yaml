@@ -1,0 +1,14 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: jjelen packages
+  description: jjelen EPEL packages
+  maintainer: jjelen
+  packages:
+    - fwknop
+    - kryoptic
+    - kryoptic-tools
+    - sasl-xoauth2
+    - yubihsm-connector
+  labels:
+    - eln-extras

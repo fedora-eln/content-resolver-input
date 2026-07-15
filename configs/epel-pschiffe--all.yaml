@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: pschiffe packages
+  description: pschiffe EPEL packages
+  maintainer: pschiffe
+  packages:
+    - lnav
+  labels:
+    - eln-extras

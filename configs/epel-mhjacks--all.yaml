@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: mhjacks packages
+  description: mhjacks EPEL packages
+  maintainer: mhjacks
+  packages:
+    - awesome-vim-colorschemes
+  labels:
+    - eln-extras

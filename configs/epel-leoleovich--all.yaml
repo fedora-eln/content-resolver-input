@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: leoleovich packages
+  description: leoleovich EPEL packages
+  maintainer: leoleovich
+  packages:
+    - oscillatord
+  labels:
+    - eln-extras

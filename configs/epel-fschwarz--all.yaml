@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: fschwarz packages
+  description: fschwarz EPEL packages
+  maintainer: fschwarz
+  packages:
+    - borgbackup
+  labels:
+    - eln-extras

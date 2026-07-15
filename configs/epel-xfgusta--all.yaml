@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: xfgusta packages
+  description: xfgusta EPEL packages
+  maintainer: xfgusta
+  packages:
+    - bfs
+  labels:
+    - eln-extras

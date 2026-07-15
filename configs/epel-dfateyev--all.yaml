@@ -1,0 +1,23 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: dfateyev packages
+  description: dfateyev EPEL packages
+  maintainer: dfateyev
+  packages:
+    - backupninja
+    - dnstop
+    - freecolor
+    - jpeginfo
+    - jpegoptim
+    - mlmmj
+    - nfdump
+    - opensmtpd
+    - prwd
+    - reposurgeon
+    - siege
+    - smtpping
+    - spdrs60
+    - srcpd
+  labels:
+    - eln-extras

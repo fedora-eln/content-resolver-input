@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: atim packages
+  description: atim EPEL packages
+  maintainer: atim
+  packages:
+    - qownnotes
+    - vifm
+  labels:
+    - eln-extras

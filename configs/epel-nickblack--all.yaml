@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: nickblack packages
+  description: nickblack EPEL packages
+  maintainer: nickblack
+  packages:
+    - notcurses-utils
+  labels:
+    - eln-extras

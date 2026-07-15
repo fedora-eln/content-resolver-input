@@ -1,0 +1,20 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: suve packages
+  description: suve EPEL packages
+  maintainer: suve
+  packages:
+    - dumb-init
+    - firejail
+    - jc
+    - lazarus
+    - lazarus-ide
+    - lazarus-lcl-gtk3
+    - lazarus-lcl-qt6
+    - liquidctl
+    - rmlint
+    - rmlint-gui
+    - vrms-rpm
+  labels:
+    - eln-extras

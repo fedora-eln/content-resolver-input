@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: aekoroglu packages
+  description: aekoroglu EPEL packages
+  maintainer: aekoroglu
+  packages:
+    - supervisor
+  labels:
+    - eln-extras

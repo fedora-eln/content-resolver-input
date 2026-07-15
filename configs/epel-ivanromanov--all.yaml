@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: ivanromanov packages
+  description: ivanromanov EPEL packages
+  maintainer: ivanromanov
+  packages:
+    - torrent-file-editor
+  labels:
+    - eln-extras

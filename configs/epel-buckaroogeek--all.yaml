@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: buckaroogeek packages
+  description: buckaroogeek EPEL packages
+  maintainer: buckaroogeek
+  packages:
+    - containerd
+  labels:
+    - eln-extras

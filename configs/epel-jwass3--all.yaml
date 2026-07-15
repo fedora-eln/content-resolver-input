@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: jwass3 packages
+  description: jwass3 EPEL packages
+  maintainer: jwass3
+  packages:
+    - fapolicy-analyzer
+  labels:
+    - eln-extras

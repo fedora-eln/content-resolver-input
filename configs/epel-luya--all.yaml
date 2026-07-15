@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: luya packages
+  description: luya EPEL packages
+  maintainer: luya
+  packages:
+    - alembic
+    - gnome-shell-extension-screen-autorotate
+    - ptex
+    - xournalpp
+  labels:
+    - eln-extras

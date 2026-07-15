@@ -1,0 +1,11 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: cheeselee packages
+  description: cheeselee EPEL packages
+  maintainer: cheeselee
+  packages:
+    - ioping
+    - xe-guest-utilities-latest
+  labels:
+    - eln-extras
