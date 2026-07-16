@@ -38,6 +38,7 @@ data:
     - pam-kwallet
     - plasma-activities
     - plasma-activities-stats
+    - plasma-bigscreen
     - plasma-breeze
     - plasma-browser-integration
     - plasma-desktop
