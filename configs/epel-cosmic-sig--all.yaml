@@ -10,6 +10,7 @@ data:
     # applications
     - cosmic-edit
     - cosmic-files
+    - cosmic-monitor
     - cosmic-player
     - cosmic-store
     - cosmic-term
