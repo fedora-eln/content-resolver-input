@@ -5,6 +5,8 @@ data:
   description: KDE Miscellaneous ELN Extras packages
   maintainer: kde-sig
   packages:
+    - amarok
+    - amarok-utils
     - atlantik
     - gcompris-qt
     - haruna
@@ -18,6 +20,8 @@ data:
     - kimageannotator-qt6
     - kommit
     - krita
+    - krusader
+    - kxkb2locale1
     - libkgapi
     - marknote
     - nheko
