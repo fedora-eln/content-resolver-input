@@ -1,0 +1,10 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: GNOME Desktop Deprecated
+  description: GNOME Desktop core packages in RHEL 10 which will not be in RHEL 11
+  maintainer: rhel-sst-display-window-management
+  packages:
+    - low-memory-monitor
+  labels:
+    - c10s
