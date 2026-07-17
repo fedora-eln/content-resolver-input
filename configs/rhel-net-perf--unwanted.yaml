@@ -62,8 +62,6 @@ data:
     - libotr
     - libwvstreams
     - mailman
-    - mod_security
-    - mod_security_crs
     - ntp
     - pakchois
     - perl-PerlIO-gzip
