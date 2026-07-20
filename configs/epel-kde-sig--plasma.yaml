@@ -38,7 +38,6 @@ data:
     - pam-kwallet
     - plasma-activities
     - plasma-activities-stats
-    - plasma-bigscreen
     - plasma-breeze
     - plasma-browser-integration
     - plasma-desktop
@@ -99,18 +98,21 @@ data:
     x86_64:
       - bluedevil
       - grub2-breeze-theme
+      - plasma-bigscreen
       - plasma-nm-l2tp
       - plasma-nm-openconnect
       - plasma-sdk
     aarch64:
       - bluedevil
       - grub2-breeze-theme
+      - plasma-bigscreen
       - plasma-nm-l2tp
       - plasma-nm-openconnect
       - plasma-sdk
     ppc64le:
       - bluedevil
       - grub2-breeze-theme
+      - plasma-bigscreen
       - plasma-nm-l2tp
       - plasma-nm-openconnect
       - plasma-sdk
