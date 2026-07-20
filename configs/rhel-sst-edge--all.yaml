@@ -19,6 +19,7 @@ data:
     - ignition
     - ignition-edge
     - nss-altfiles
+    - oci-delta
     - ostree
     - rpm-ostree
   arch_packages:
