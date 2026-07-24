@@ -1,0 +1,16 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: MySQL 9.7 client and server
+  description: Client tools and a server daemon for MySQL 9.7 from Oracle
+  maintainer: rhel-databases
+  packages:
+    - mysql9.7
+    - mysql9.7-server
+    - mysql9.7-test
+    - mysql9.7-devel
+    - mysql-selinux # Because RPM mysql9.7-server Requires: (mysql-selinux if selinux-policy-targeted)
+    - mecab-ipadic
+    - mecab-ipadic-EUCJP
+  labels:
+    - eln
