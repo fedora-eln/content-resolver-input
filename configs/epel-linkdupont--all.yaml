@@ -6,6 +6,10 @@ data:
   maintainer: linkdupont
   packages:
     - kcat
-    - swift-lang
+  arch_packages:
+    aarch64:
+      - swift-lang
+    x86_64:
+      - swift-lang
   labels:
     - eln-extras

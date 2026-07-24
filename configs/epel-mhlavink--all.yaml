@@ -6,10 +6,24 @@ data:
   maintainer: mhlavink
   packages:
     - arm-none-eabi-gcc-cs
-    - nut
-    - nut-cgi
-    - nut-client
-    - nut-monitor
-    - nut-xml
+  arch_packages:
+    aarch64:
+      - nut
+      - nut-cgi
+      - nut-client
+      - nut-monitor
+      - nut-xml
+    ppc64le:
+      - nut
+      - nut-cgi
+      - nut-client
+      - nut-monitor
+      - nut-xml
+    x86_64:
+      - nut
+      - nut-cgi
+      - nut-client
+      - nut-monitor
+      - nut-xml
   labels:
     - eln-extras

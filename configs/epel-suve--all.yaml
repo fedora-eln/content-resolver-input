@@ -8,13 +8,27 @@ data:
     - dumb-init
     - firejail
     - jc
-    - lazarus
-    - lazarus-ide
-    - lazarus-lcl-gtk3
-    - lazarus-lcl-qt6
-    - liquidctl
     - rmlint
     - rmlint-gui
     - vrms-rpm
+  arch_packages:
+    aarch64:
+      - lazarus
+      - lazarus-ide
+      - lazarus-lcl-gtk3
+      - lazarus-lcl-qt6
+      - liquidctl
+    ppc64le:
+      - lazarus
+      - lazarus-ide
+      - lazarus-lcl-gtk3
+      - lazarus-lcl-qt6
+      - liquidctl
+    x86_64:
+      - lazarus
+      - lazarus-ide
+      - lazarus-lcl-gtk3
+      - lazarus-lcl-qt6
+      - liquidctl
   labels:
     - eln-extras

@@ -8,7 +8,7 @@ data:
     - afetch
     - basez
     - btop
-    - certbot
+#    - certbot
     - cinfo
     - clifm
     - collectd
@@ -18,10 +18,10 @@ data:
     - dumpet
     - esc
     - fastfetch
-    - freeipa-fas
     - gif2png
     - gpart
     - hstr
+    - ipa-fas
     - jdupes
     - keydb
     - kitty

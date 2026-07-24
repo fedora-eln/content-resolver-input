@@ -4,7 +4,11 @@ data:
   name: rjarry packages
   description: rjarry EPEL packages
   maintainer: rjarry
-  packages:
-    - grout
+  packages: []
+  arch_packages:
+    aarch64:
+      - grout
+    x86_64:
+      - grout
   labels:
     - eln-extras

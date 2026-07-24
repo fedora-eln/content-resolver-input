@@ -8,7 +8,6 @@ data:
     - glad2
     - ladspa-devel
     - lv2-devel
-    - mediainfo
     - minidlna
     - mpv
     - uxplay
@@ -16,7 +15,11 @@ data:
   arch_packages:
     aarch64:
       - libva-nvidia-driver
+      - mediainfo
+    ppc64le:
+      - mediainfo
     x86_64:
       - libva-nvidia-driver
+      - mediainfo
   labels:
     - eln-extras

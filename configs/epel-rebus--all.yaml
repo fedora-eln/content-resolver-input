@@ -16,9 +16,7 @@ data:
     - masscan
     - md5deep
     - msoffcrypto-tool
-    - nbtscan
     - ncrack
-    - nikto
     - nmbscan
     - onesixtyone
     - packETH

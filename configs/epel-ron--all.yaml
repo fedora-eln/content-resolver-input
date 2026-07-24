@@ -5,7 +5,13 @@ data:
   description: ron EPEL packages
   maintainer: ron
   packages:
-    - bcftools
     - samtools
+  arch_packages:
+    aarch64:
+      - bcftools
+    ppc64le:
+      - bcftools
+    x86_64:
+      - bcftools
   labels:
     - eln-extras

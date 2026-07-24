@@ -4,7 +4,11 @@ data:
   name: leoswaldo packages
   description: leoswaldo EPEL packages
   maintainer: leoswaldo
-  packages:
-    - fluent-bit
+  packages: []
+  arch_packages:
+    aarch64:
+      - fluent-bit
+    x86_64:
+      - fluent-bit
   labels:
     - eln-extras

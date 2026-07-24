@@ -12,8 +12,5 @@ data:
     - sleuthkit
     - tegrarcm
     - xmount
-  arch_packages:
-    x86_64:
-      - libva-intel-hybrid-driver
   labels:
     - eln-extras

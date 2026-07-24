@@ -4,7 +4,11 @@ data:
   name: sentry packages
   description: sentry EPEL packages
   maintainer: sentry
-  packages:
-    - zig
+  packages: []
+  arch_packages:
+    aarch64:
+      - zig
+    x86_64:
+      - zig
   labels:
     - eln-extras

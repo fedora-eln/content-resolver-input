@@ -21,7 +21,6 @@ data:
     - iverilog
     - keychain
     - mbuffer
-    - nwipe
     - pdns-recursor
     - pgrouting
     - samurai
@@ -29,5 +28,10 @@ data:
     - vcftools
     - worker
     - zmap
+  arch_packages:
+    aarch64:
+      - nwipe
+    x86_64:
+      - nwipe
   labels:
     - eln-extras

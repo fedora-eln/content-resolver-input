@@ -23,8 +23,17 @@ data:
     - vdirsyncer
     - xbean
     - xdg-terminal-exec
-    - zcfan
-    - zeal
-    - zile
+  arch_packages:
+    aarch64:
+      - zeal
+      - zile
+    ppc64le:
+      - zeal
+    s390x:
+      - zile
+    x86_64:
+      - zcfan
+      - zeal
+      - zile
   labels:
     - eln-extras

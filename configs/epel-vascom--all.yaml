@@ -13,8 +13,9 @@ data:
     - lsp-plugins-lv2
     - lsp-plugins-vst
     - lsp-plugins-vst3
-    - mediainfo
     - pwgen
-    - gstreamer1-svt-vp9
+  arch_packages:
+    x86_64:
+      - gstreamer1-svt-vp9
   labels:
     - eln-extras

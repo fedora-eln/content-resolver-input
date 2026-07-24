@@ -8,8 +8,12 @@ data:
     - clide
     - colordiff
     - disktype
-    - ncdu
     - txt2regex
     - whowatch
+  arch_packages:
+    aarch64:
+      - ncdu
+    x86_64:
+      - ncdu
   labels:
     - eln-extras

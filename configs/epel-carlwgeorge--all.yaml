@@ -18,10 +18,14 @@ data:
     - gum
     - jetbrains-mono-fonts-all
     - nginx-mod-vts
-    - sbsigntools
     - tinyproxy
     - unrar
     - unrar-free
     - xpanes
+  arch_packages:
+    aarch64:
+      - sbsigntools
+    x86_64:
+      - sbsigntools
   labels:
     - eln-extras

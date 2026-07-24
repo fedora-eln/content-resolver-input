@@ -6,6 +6,8 @@ data:
   maintainer: cheeselee
   packages:
     - ioping
-    - xe-guest-utilities-latest
+  arch_packages:
+    x86_64:
+      - xe-guest-utilities-latest
   labels:
     - eln-extras

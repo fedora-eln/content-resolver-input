@@ -8,6 +8,5 @@ data:
     - hardinfo2
     - sshguard
     - sshguard-firewalld
-    - sshguard-nftables
   labels:
     - eln-extras
