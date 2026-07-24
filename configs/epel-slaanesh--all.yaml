@@ -24,7 +24,6 @@ data:
     - figlet
     - iscan-firmware
     - jfrog-cli
-    - libvpl-tools
     - pgbouncer
     - pulp-cli
     - steam-devices
@@ -34,5 +33,6 @@ data:
     x86_64:
       - imhex
       - intel-vpl-gpu-rt
+      - libvpl-tools
   labels:
     - eln-extras

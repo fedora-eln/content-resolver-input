@@ -33,7 +33,7 @@ data:
     - freeze
     - grepcidr
     - guacd # guacamole-server
-    - icedtea-web
+#    - icedtea-web
     - ipv6toolkit
     - jupp
     - lxi-tools

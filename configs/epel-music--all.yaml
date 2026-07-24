@@ -17,7 +17,6 @@ data:
     - imagej
     - jello
     - ladspa-autotalent-plugins
-    - notejot
     - opentype-sanitizer
     - pipx
     - pngcheck

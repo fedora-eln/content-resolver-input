@@ -10,7 +10,6 @@ data:
     - munin
     - munin-apache
     - munin-cgi
-    - munin-nginx
     - munin-node
     - munin-plugins-ruby
   labels:

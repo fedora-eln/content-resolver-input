@@ -21,13 +21,10 @@ data:
     - hello
     - lsfrom
     - idris
-    - idris2
     - nix
     - ostree-pin
     - pandoc-cli
     - patat
-    - racket
-    - racket-pkgs
     - tart
     # build dependencies
     - ghc-Agda-devel
@@ -40,5 +37,14 @@ data:
     - ghc-tart-devel
     - ghc-pandoc-devel
     - ghc-pandoc-server-devel
+  arch_packages:
+    aarch64:
+      - idris2
+      - racket
+      - racket-pkgs
+    x86_64:
+      - idris2
+      - racket
+      - racket-pkgs
   labels:
     - eln-extras

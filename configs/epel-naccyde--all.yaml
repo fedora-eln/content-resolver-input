@@ -4,7 +4,11 @@ data:
   name: naccyde packages
   description: naccyde EPEL packages
   maintainer: naccyde
-  packages:
-    - bpfilter
+  packages: []
+  arch_packages:
+    aarch64:
+      - bpfilter
+    x86_64:
+      - bpfilter
   labels:
     - eln-extras

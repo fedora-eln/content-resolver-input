@@ -5,9 +5,13 @@ data:
   description: pemensik EPEL packages
   maintainer: pemensik
   packages:
-    - dnsjit
     - ethq
     - flamethrower
     - getdns-utils
+  arch_packages:
+    aarch64:
+      - dnsjit
+    x86_64:
+      - dnsjit
   labels:
     - eln-extras

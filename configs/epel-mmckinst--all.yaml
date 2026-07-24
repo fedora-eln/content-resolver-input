@@ -5,11 +5,13 @@ data:
   description: mmckinst EPEL packages
   maintainer: mmckinst
   packages:
-    - e3
     - emacs-yaml-mode
     - fex
     - fpdns
     - mg
     - nawk
+  arch_packages:
+    x86_64:
+      - e3
   labels:
     - eln-extras

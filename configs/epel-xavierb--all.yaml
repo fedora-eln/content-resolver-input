@@ -10,7 +10,5 @@ data:
     - openarc
     - sympa
     - sympa-httpd
-    - sympa-lighttpd
-    - sympa-nginx
   labels:
     - eln-extras

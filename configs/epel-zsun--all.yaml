@@ -4,7 +4,11 @@ data:
   name: zsun packages
   description: zsun EPEL packages
   maintainer: zsun
-  packages:
-    - onedrive
+  packages: []
+  arch_packages:
+    aarch64:
+      - onedrive
+    x86_64:
+      - onedrive
   labels:
     - eln-extras

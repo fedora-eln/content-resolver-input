@@ -6,6 +6,10 @@ data:
   maintainer: mrc0mmand
   packages:
     - dfuzzer
-    - reptyr
+  arch_packages:
+    aarch64:
+      - reptyr
+    x86_64:
+      - reptyr
   labels:
     - eln-extras

@@ -12,7 +12,6 @@ data:
     - edg-mkgridmap
     - fetch-crl
     - git2cl
-    - stomppy
     - tig
     - uberftp
     - xfig
