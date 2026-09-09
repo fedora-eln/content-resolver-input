@@ -22,8 +22,10 @@ data:
           description: DNF plugin needed to remove old kernel modules
           dependencies:
             - python3
-            - python3-dnf
-
+            # XXX Disable python3-dnf dependency to unblock the removal of python3-dnf (DNF 4) from ELN.
+            # This intentionally leaves dnf-plugin-nvidia with an unsatisfied dependency until the whole
+            # placeholder package can be replaced with a DNF 5-compatible version once it's available.
+            # - python3-dnf
     - srpm_name: nvidia-settings
       build_dependencies:
         - dbus-devel
