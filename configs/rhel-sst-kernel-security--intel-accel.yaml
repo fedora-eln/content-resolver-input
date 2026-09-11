@@ -10,6 +10,7 @@ data:
       - qatlib-devel
       - qatlib-service
       - qatlib-tests
+      - qatlib-tools
       - qatengine
       - qatzip
       - qatzip-devel
