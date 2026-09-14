@@ -16,16 +16,22 @@ data:
   package_placeholders:
     - srpm_name: dnf-plugin-nvidia
       build_dependencies:
-        - python3-devel
+        - cmake
+        - dnf5-devel
+        - gcc-c++
+        - libdnf5-cli-devel
+        - libdnf5-devel
+        - pkgconf-pkg-config
       rpms:
         - rpm_name: dnf-plugin-nvidia
           description: DNF plugin needed to remove old kernel modules
           dependencies:
-            - python3
-            # XXX Disable python3-dnf dependency to unblock the removal of python3-dnf (DNF 4) from ELN.
-            # This intentionally leaves dnf-plugin-nvidia with an unsatisfied dependency until the whole
-            # placeholder package can be replaced with a DNF 5-compatible version once it's available.
-            # - python3-dnf
+            - dnf5
+            - glibc
+            - libdnf5
+            - libdnf5-cli
+            - libgcc
+            - libstdc++
     - srpm_name: nvidia-settings
       build_dependencies:
         - dbus-devel
