@@ -7,6 +7,5 @@ data:
   packages:
     - mapserver
     - pbuilder
-    - yarnpkg
   labels:
     - eln-extras
