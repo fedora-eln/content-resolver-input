@@ -5,6 +5,7 @@ data:
   description: Red Hat tools for Content, Subscriptions and Insights.
   maintainer: rhel-sst-csi-client-tools
   packages:
+    - subscription-manager-plugin-ostree
     - yggdrasil-worker-package-manager
   labels:
     - c10s

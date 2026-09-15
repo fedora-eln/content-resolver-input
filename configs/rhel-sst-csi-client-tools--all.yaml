@@ -9,7 +9,6 @@ data:
     - rhc
     - subscription-manager
     - subscription-manager-cockpit
-    - subscription-manager-plugin-ostree
     - subscription-manager-rhsm-certificates
     - virt-who
     - yggdrasil
