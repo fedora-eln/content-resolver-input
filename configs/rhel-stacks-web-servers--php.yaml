@@ -35,7 +35,6 @@ data:
     - php-pear
     - php-pecl-apcu
     - php-pecl-apcu-devel
-    - php-pecl-rrd
     - php-pecl-xdebug3
     - php-pecl-zip
     - php-pecl-redis6
