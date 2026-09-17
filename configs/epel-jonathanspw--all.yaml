@@ -24,7 +24,6 @@ data:
     - hstr
     - ipa-fas
     - jdupes
-    - keydb
     - kitty
     - matterbridge
     - mytop
