@@ -1,0 +1,13 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Perl Extensions
+  description: Perl packages packages in the RHEL Extensions repository
+  maintainer: rhel-stacks-services-scripting
+  packages:
+    - perl-DBD-CSV
+    - perl-DBD-ODBC
+    - perl-GDGraph
+    - perl-SQL-Statement
+  labels:
+    - eln-extensions
