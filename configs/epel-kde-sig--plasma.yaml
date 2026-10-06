@@ -60,7 +60,6 @@ data:
     - plasma-mobile-sounds
     - plasma-nano
     - plasma-nm
-    - plasma-nm-fortisslvpn
     - plasma-nm-openswan
     - plasma-nm-openvpn
     - plasma-nm-pptp
