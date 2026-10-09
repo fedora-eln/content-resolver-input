@@ -59,7 +59,6 @@ data:
       - file
       - filesystem
       - glibc
-      - gnupg2
       - grub2-efi-aa64
       - grub2-tools
       - grubby
@@ -220,7 +219,6 @@ data:
       - filesystem
       - fprintd-pam
       - glibc
-      - gnupg2
       - grub2-efi-x64
       - grub2-pc
       - grubby
