@@ -13,5 +13,4 @@ data:
     - npth
     - pinentry
   labels:
-    - eln
     - c10s

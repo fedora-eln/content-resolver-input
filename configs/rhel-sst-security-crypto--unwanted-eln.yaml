@@ -1,0 +1,17 @@
+document: feedback-pipeline-unwanted
+version: 1
+data:
+  maintainer: rhel-sst-security-crypto
+  name: Unwanted GnuPG packages
+  description: Unwanted packages related to GnuPG, which we are replacing with Sequoia-PGP
+  # These packages are unwanted because we are no longer FIPS-certifying
+  # libgcrypt, GnuPG no longer follows the IETF OpenPGP standards by default,
+  # is slow to implement post-quantum cryptography, and its code quality does
+  # not meet our expectations.
+  unwanted_source_packages:
+    - gnupg2
+    - libksba
+    - libassuan
+    - npth
+  labels:
+    - eln
