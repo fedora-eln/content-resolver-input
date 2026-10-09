@@ -24,7 +24,6 @@ data:
         - gdb-gdbserver
         - glibc-minimal-langpack
         - gmp
-        - gnupg2
         - hostname
         - langpacks-en
         - libcurl-minimal
@@ -67,7 +66,6 @@ data:
         - gdb-gdbserver
         - glibc-minimal-langpack
         - gmp
-        - gnupg2
         - hostname
         - langpacks-en
         - libcurl-minimal
