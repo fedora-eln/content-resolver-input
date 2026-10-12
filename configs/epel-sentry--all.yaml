@@ -6,8 +6,6 @@ data:
   maintainer: sentry
   packages: []
   arch_packages:
-    aarch64:
-      - zig
     x86_64:
       - zig
   labels:
