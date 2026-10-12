@@ -156,6 +156,7 @@ data:
         - python3-quart
         - python3-quart-trio
         - python3-recommonmark
+        - python3-sphinx-autoapi
         - python3-subunit
         - python3-tomlkit
         - python3-tox-current-env
