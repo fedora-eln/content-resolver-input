@@ -1,0 +1,51 @@
+document: feedback-pipeline-workload
+version: 1
+data:
+  name: Python 3.15
+  description: Python 3.15 interpreter and packages
+  maintainer: rhel-pt-python
+  packages:
+    # Main packages (AppStream)
+    - python3.15
+    - python3.15-cffi
+    - python3.15-charset-normalizer
+    - python3.15-cryptography
+    - python3.15-devel
+    - python3.15-idna
+    - python3.15-libs
+    - python3.15-lxml
+    - python3.15-pip
+    - python3.15-pip-wheel
+    - python3.15-pycparser
+    - python3.15-pyyaml
+    - python3.15-requests
+    - python3.15-tkinter
+    - python3.15-urllib3
+    # CRB packages
+    - python3.15-Cython
+    - python3.15-debug
+    - python3.15-flit-core
+    - python3.15-freethreading
+    - python3.15-freethreading-debug
+    - python3.15-freethreading-devel
+    - python3.15-freethreading-idle
+    - python3.15-freethreading-libs
+    - python3.15-freethreading-test
+    - python3.15-freethreading-tkinter
+    - python3.15-idle
+    - python3.15-iniconfig
+    - python3.15-packaging
+    - python3.15-pluggy
+    - python3.15-pygments
+    - python3.15-pytest
+    - python3.15-semantic_version
+    - python3.15-setuptools
+    - python3.15-setuptools-rust
+    - python3.15-setuptools-wheel
+    - python3.15-setuptools_scm
+    - python3.15-setuptools_scm+simple
+    - python3.15-setuptools_scm+toml
+    - python3.15-test
+    - python3.15-vcs-versioning
+  labels:
+    - c10s
