@@ -6,9 +6,14 @@ data:
   maintainer: rhel-pt-dotnet
   packages:
     # EOL in Nov, 2028
-    - dotnet-sdk-aot-11.0
     - dotnet-sdk-11.0
     - dotnet-runtime-11.0
     - aspnetcore-runtime-11.0
+  arch_packages:
+    aarch64:
+      - dotnet-sdk-aot-11.0
+    x86_64:
+      - dotnet-sdk-aot-11.0
   labels:
+    - eln
     - c10s
