@@ -10,6 +10,7 @@ data:
     - cvs
     - gscan2pdf
     - indent
+    - perl-Net-DNS-SEC
     - shigofumi
     - unpaper
   labels:
