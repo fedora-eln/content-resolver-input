@@ -45,6 +45,11 @@ data:
         - sdubby
         # rust lib crates pull in too much stuff.  It overwhelms CR
         - rust-*-devel
+        # not all subpackages are built in EPEL
+        - collectd-*
+        - lighttpd-*
+        - opendbx-*
+        - uwsgi-*
         priority: 4
       Rawhide:
         baseurl: https://kojipkgs.fedoraproject.org/compose/rawhide/latest-Fedora-Rawhide/compose/Everything/$basearch/os/
