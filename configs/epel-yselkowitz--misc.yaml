@@ -7,6 +7,7 @@ data:
   packages:
     - cargo-vendor-filterer
     - flatseal
+    - gedit
     - latex2rtf
     - qmplay2
     - robodoc
