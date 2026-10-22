@@ -76,6 +76,8 @@ data:
         koji_api_url: https://koji.fedoraproject.org/kojihub
         koji_files_url: https://kojipkgs.fedoraproject.org
         exclude: &eln_build_excludes
+        # Must not be used by RHEL packages
+        - epel-rpm-macros
         # prefer environment-modules
         - Lmod
         # prefer lynx for text-www-browser
