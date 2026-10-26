@@ -36,6 +36,7 @@ data:
     - nemo-terminal
     - paper-icon-theme
     - python3-xapp
+    - velocitty
     - xapps
     - xdg-desktop-portal-xapp
     - xed
@@ -43,8 +44,6 @@ data:
     - xreader-thumbnailer
     # external apps
     - blueman
-    - gnome-screenshot
-    - gnome-terminal
     - touchegg
   labels:
     - eln-extras
