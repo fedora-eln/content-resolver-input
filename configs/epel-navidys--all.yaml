@@ -6,5 +6,6 @@ data:
   maintainer: navidys
   packages:
     - podman-tui
+    - prometheus-podman-exporter
   labels:
     - eln-extras
