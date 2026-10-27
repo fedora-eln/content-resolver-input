@@ -38,12 +38,9 @@ data:
   arch_packages:
     x86_64:
       - digikam
-      - kaidan
     aarch64:
       - digikam
-      - kaidan
     ppc64le:
       - digikam
-      - kaidan
   labels:
     - eln-extras
