@@ -27,6 +27,7 @@ data:
     - kscreenlocker
     - ksshaskpass
     - ksystemstats
+    - kup-backup
     - kwayland
     - kwin
     - kwrited
