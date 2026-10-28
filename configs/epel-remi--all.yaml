@@ -6,6 +6,10 @@ data:
   maintainer: remi
   packages:
     - composer
+    - php-pdo-dblib
+    - php-pdo-firebird
+    - php-sodium
+    - php-tidy
     - phpMyAdmin
     - pie
     - rnp
