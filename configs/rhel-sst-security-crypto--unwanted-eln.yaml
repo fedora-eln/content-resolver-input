@@ -13,5 +13,7 @@ data:
     - libksba
     - libassuan
     - npth
+    - liboqs
+    - oqsprovider
   labels:
     - eln
