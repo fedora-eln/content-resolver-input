@@ -87,7 +87,6 @@ data:
     - pcp-pmda-postfix
     - pcp-pmda-postgresql
     - pcp-pmda-rabbitmq
-    - pcp-pmda-rds
     - pcp-pmda-redis
     - pcp-pmda-rocestat
     - pcp-pmda-rsyslog
