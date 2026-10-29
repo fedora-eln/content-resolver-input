@@ -7,6 +7,7 @@ data:
   maintainer: rhel-sst-security-crypto
   packages:
     - pkcs11-provider
+    - kryoptic
   labels:
     - eln
     - c10s
