@@ -7,8 +7,6 @@ data:
   packages:
     - expat
     - expat-devel
-    - minicom
-    - xterm
     - dosfstools
     - grep
     - lm_sensors
@@ -19,4 +17,3 @@ data:
       - memtest86+
   labels:
     - eln
-    - c10s
