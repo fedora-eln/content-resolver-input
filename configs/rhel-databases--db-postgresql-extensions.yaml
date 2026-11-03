@@ -8,7 +8,6 @@ data:
     - pgaudit
     - pg_repack
     - pgvector
-    - postgres-decoderbufs
     - postgis
     - postgis-client
     - postgis-docs
@@ -16,4 +15,3 @@ data:
     - postgis-utils
   labels:
     - eln
-    - c10s
