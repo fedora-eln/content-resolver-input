@@ -223,6 +223,11 @@ data:
         - protobuf3-c
         - protobuf3-c-compiler
         - protobuf3-c-devel
+        # firefox/thunderbird BuildRequires, bundled in RHEL
+        - autoconf213
+        - dbus-glib-devel
+        - gnome-keyring
+        - python3.11*
         priority: 4
       Rawhide:
         baseurl: https://kojipkgs.fedoraproject.org/compose/rawhide/latest-Fedora-Rawhide/compose/Everything/$basearch/os/
