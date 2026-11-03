@@ -134,5 +134,4 @@ data:
     - tesseract-langpack-yid
     - tesseract-langpack-yor
   labels:
-    - eln
     - c10s
