@@ -9,7 +9,7 @@ data:
     - postgresql18-contrib
     - postgresql18-plperl
     - postgresql18-plpython3
-    #- postgresq18l-pltcl
+    - postgresq18l-pltcl
     - postgresql18-server
     - postgresql18-server-devel
     - postgresql18-static
