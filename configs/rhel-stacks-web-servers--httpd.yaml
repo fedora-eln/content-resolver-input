@@ -21,7 +21,6 @@ data:
     - python3-mod_wsgi
     - mod_http2
     - mod_md
-    - mod_fcgid
     - mod_security
     - mod_security-mlogc
     - mod_security_crs
@@ -39,4 +38,3 @@ data:
     - apr-util-sqlite
   labels:
     - eln
-    - c10s
