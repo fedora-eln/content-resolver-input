@@ -6,6 +6,8 @@ data:
   maintainer: rhel-sst-display-window-management
   packages:
     - gnome-kiosk
+    - gnome-kiosk-script-session
+    - gnome-kiosk-search-appliance
   labels:
     - eln
     - c10s
