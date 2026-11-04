@@ -19,7 +19,6 @@ data:
     - file
     - tree
     - units
-    - hardlink
     - uuidd
     - words
   labels:
