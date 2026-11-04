@@ -228,6 +228,7 @@ data:
       - kwebenginepart
       - mbox-importer
       - merkuro
+      - merkuro-plasma-applet
       - parley
       - pim-data-exporter
       - pim-sieve-editor
@@ -269,6 +270,7 @@ data:
       - kwebenginepart
       - mbox-importer
       - merkuro
+      - merkuro-plasma-applet
       - parley
       - pim-data-exporter
       - pim-sieve-editor
@@ -310,6 +312,7 @@ data:
       - kwebenginepart
       - mbox-importer
       - merkuro
+      - merkuro-plasma-applet
       - parley
       - pim-data-exporter
       - pim-sieve-editor
