@@ -14,7 +14,7 @@ data:
     - libdnf5-plugin-actions
     - libdnf5-plugin-appstream
     - libdnf5-plugin-expired-pgp-keys
-    - libdnf5-plugin-rhsm
+    - libdnf5-plugin-rhsm-container
     - librhsm
     - python3-libdnf5
     - python3-libdnf5-cli
