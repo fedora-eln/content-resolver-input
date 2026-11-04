@@ -17,7 +17,7 @@ data:
           dependencies: []
     - srpm_name: redhat-logos
       build_dependencies:
-        - hardlink
+        - util-linux-core
       rpms:
         - rpm_name: redhat-logos
           description: Red Hat-related icons and pictures
