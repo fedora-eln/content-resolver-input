@@ -30,7 +30,6 @@ data:
     - nemo-fileroller
     - nemo-image-converter
     - nemo-pastebin
-    - nemo-preview
     - nemo-seahorse
     - nemo-search-helpers
     - nemo-terminal
