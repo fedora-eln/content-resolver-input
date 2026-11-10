@@ -43,8 +43,6 @@ data:
         - jack-audio-connection-kit
         # prefer grubby
         - sdubby
-        # rust lib crates pull in too much stuff.  It overwhelms CR
-        - rust-*-devel
         # not all subpackages are built in EPEL
         - collectd-*
         - lighttpd-*
