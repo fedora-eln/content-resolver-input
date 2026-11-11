@@ -22,5 +22,8 @@ data:
     # deprecated() compat packages
     - python-setuptools80
     - python-flit-core3
+    # lagging behind Sphinx development, technically unneeded
+    # https://github.com/fedora-eln/eln/issues/657
+    - python-sphinx_rtd_theme
   labels:
     - eln
