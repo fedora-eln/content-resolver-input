@@ -139,6 +139,7 @@ data:
         - python3-ipython
         - python3-jaraco-packaging
         - python3-jaraco-test
+        - python3-linuxdoc
         - python3-myst-parser
         - python3-pillow
         - python3-pretend
@@ -164,6 +165,8 @@ data:
         - python3-recommonmark
         - python3-sphinx-autoapi
         - python3-sphinx-bootstrap-theme
+        - python3-sphinx-markdown-builder
+        - python3-sphinxcontrib-*
         - python3-subunit
         - python3-tomlkit
         - python3-tox-current-env
