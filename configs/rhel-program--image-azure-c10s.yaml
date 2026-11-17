@@ -11,7 +11,6 @@ data:
       - NetworkManager
       - NetworkManager-cloud-setup
       - NetworkManager-tui
-      - PackageKit
       - WALinuxAgent
       - acl
       - amd-gpu-firmware
@@ -174,7 +173,6 @@ data:
       - NetworkManager
       - NetworkManager-cloud-setup
       - NetworkManager-tui
-      - PackageKit
       - WALinuxAgent
       - acl
       - amd-gpu-firmware
