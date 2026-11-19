@@ -5,6 +5,7 @@ data:
   description: Collections of packages providing fonts
   maintainer: rhel-sst-display-i18n
   packages:
+    - cascadia-mono-fonts
     - default-fonts-am
     - default-fonts-ar
     - default-fonts-as
