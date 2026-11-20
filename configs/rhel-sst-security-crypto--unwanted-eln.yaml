@@ -2,16 +2,19 @@ document: feedback-pipeline-unwanted
 version: 1
 data:
   maintainer: rhel-sst-security-crypto
-  name: Unwanted GnuPG packages
-  description: Unwanted packages related to GnuPG, which we are replacing with Sequoia-PGP
-  # These packages are unwanted because we are no longer FIPS-certifying
-  # libgcrypt, GnuPG no longer follows the IETF OpenPGP standards by default,
-  # is slow to implement post-quantum cryptography, and its code quality does
-  # not meet our expectations.
+  name: Newly unwanted security/cryptography packages
+  description: Unwanted packages implementing cryptography as of RHEL 11
   unwanted_source_packages:
+    # These packages are unwanted because we are no longer FIPS-certifying
+    # libgcrypt, GnuPG no longer follows the IETF OpenPGP standards by default,
+    # is slow to implement post-quantum cryptography, and its code quality does
+    # not meet our expectations.
     - gnupg2
     - libksba
     - libassuan
     - npth
+    # The kernel Crypto Userspace API is deprecated and will be removed
+    # https://fedoraproject.org/wiki/Changes/Disable_CRYPTO_USER_API
+    - libkcapi
   labels:
     - eln
