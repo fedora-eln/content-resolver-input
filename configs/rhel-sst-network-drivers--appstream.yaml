@@ -12,6 +12,7 @@ data:
     - mpich-autoload
     - mpich-devel
     - mpich-doc
+    - mstflint
   labels:
     - eln
     - c10s

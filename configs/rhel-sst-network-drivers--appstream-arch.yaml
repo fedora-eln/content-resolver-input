@@ -7,7 +7,6 @@ data:
   packages: []
   arch_packages:
     aarch64:
-      - mstflint
       - libvma
       - libvma-utils
       - ucx
@@ -16,7 +15,6 @@ data:
       - ucx-ib
       - ucx-rdmacm
     ppc64le:
-      - mstflint
       - libvma
       - libvma-utils
       - ucx
@@ -25,7 +23,6 @@ data:
       - ucx-ib
       - ucx-rdmacm
     x86_64:
-      - mstflint
       - libvma
       - libvma-utils
       - ucx
