@@ -6,8 +6,11 @@ data:
   maintainer: rhel-sst-virt-tools
   packages:
     - augeas
+    - guestfs-tools
     - hexedit
     - hivex
+    - libguestfs
+    - libguestfs-inspect-icons
     - libosinfo
     - libvirt
     - libvirt-dbus
@@ -16,7 +19,9 @@ data:
     - osinfo-db
     - osinfo-db-tools
     - python3-libvirt
+    - supermin
     - virt-install
+    - virt-top
     - virt-viewer
     - virt-what
   labels:
@@ -24,27 +29,10 @@ data:
     - c10s
   arch_packages:
     x86_64:
-      - guestfs-tools
-      - libguestfs
-      - libguestfs-inspect-icons
-      - supermin
       - virt-p2v
-      - virt-top
       - virt-v2v
       - virt-win-reg
     aarch64:
-      - guestfs-tools
-      - libguestfs
-      - libguestfs-inspect-icons
-      - supermin
-      - virt-top
-      - virt-win-reg
-    s390x:
-      - guestfs-tools
-      - libguestfs
-      - libguestfs-inspect-icons
-      - supermin
-      - virt-top
       - virt-win-reg
   package_placeholders:
     # RHEL-specific package, not in Fedora
@@ -67,15 +55,10 @@ data:
         - libzstd-devel
         - lzo-devel
         - make
-        - redhat-rpm-config
         - systemd
         - systemd-devel
         - xz
         - zlib-ng-compat-devel
-      limit_arches:
-        - x86_64
-        - s390x
-        - aarch64
       rpms:
         - rpm_name: libguestfs-fssupport
           description: Btrfs filesystem support for virt-v2v

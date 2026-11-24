@@ -15,13 +15,4 @@ data:
     - cockpit-doc
     # extensions maintained by Cockpit team
     - cockpit-files
-  arch_packages:
-    aarch64:
-      # extensions maintained by Cockpit team
-      - cockpit-machines
-    s390x:
-      # extensions maintained by Cockpit team
-      - cockpit-machines
-    x86_64:
-      # extensions maintained by Cockpit team
-      - cockpit-machines
+    - cockpit-machines
