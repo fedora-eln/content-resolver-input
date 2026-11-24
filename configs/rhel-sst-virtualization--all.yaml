@@ -15,7 +15,6 @@ data:
     - nbdkit
     - passt
     - python-augeas
-    - qemu-kvm
     - vhostmd
   labels:
     - eln
@@ -23,6 +22,7 @@ data:
   arch_packages:
     x86_64:
       - libkrun
+      - qemu-kvm
       - sevctl
       - sgx-mpa
       - sgx-pckid-tool
@@ -38,3 +38,6 @@ data:
       - powerpc-utils
     aarch64:
       - libkrun
+      - qemu-kvm
+    s390x:
+      - qemu-kvm
