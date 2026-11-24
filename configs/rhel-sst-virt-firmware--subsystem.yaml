@@ -20,3 +20,5 @@ data:
       - virt-firmware-rs
     aarch64:
       - virt-firmware-rs
+    ppc64le:
+      - SLOF
