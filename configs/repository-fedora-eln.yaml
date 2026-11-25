@@ -235,6 +235,11 @@ data:
         - dbus-glib-devel
         - gnome-keyring
         - python3.11*
+        # no cross-compilers in RHEL
+        - binutils-*-linux-gnu
+        - binutils-*-unknown-none
+        - gcc-*-linux-gnu
+        - gcc-*-unknown-none
         priority: 4
       Rawhide:
         baseurl: https://kojipkgs.fedoraproject.org/compose/rawhide/latest-Fedora-Rawhide/compose/Everything/$basearch/os/
