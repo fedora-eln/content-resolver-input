@@ -10,8 +10,6 @@ data:
     - gdb-gdbserver
     - gdb-headless
     - gdb-minimal
-    - libbabeltrace2
-    - libbabeltrace2-devel
     - source-highlight
     # See libipt below
   labels:
