@@ -7,10 +7,17 @@ data:
   packages:
     - firefox
   labels:
-    # This package is only in ELN Extras because in RHEL we're using a different
-    # packaging than in Fedora (and in fact in RHEL 10 this will be shipped in
-    # Flatpak only), and this package pulls things into regular ELN which won't
-    # be needed in RHEL. On the other hand, we're still interested in knowing
-    # how this package works with all the extra ELN bits such as extra hardening
-    # flags and others and apparently that's what eln-extras is for.
-    - eln-extras
+    # While this package is planned to be shipped only as a Flatpak in RHEL,
+    # it is still shipped as an RPM for CentOS Stream (which does not have
+    # any flatpaks).  ELN does not have flatpaks either, and a browser is
+    # required, particularly as the installer moves to Web UI.
+    #
+    # Also, Fedora uses the latest version, but RHEL and CS use the ESR 
+    # version, and bundles certain dependencies that are not available 
+    # (e.g. python3.11). ELN uses the Fedora version too, but filters the 
+    # unwanted dependencies so that they are not carried over to the next 
+    # RHEL.  While this means this package should not be *imported* 
+    # directly from Fedora, this lets us test and catch issues in new 
+    # versions with ELN's compiler flags before the next ESR.
+    - eln
+    - c10s
