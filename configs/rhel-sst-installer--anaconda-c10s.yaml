@@ -8,5 +8,5 @@ data:
     - c10s
   packages:
     - anaconda
-    - anaconda-gtk
+    - anaconda-gui
     - anaconda-install-img-deps
